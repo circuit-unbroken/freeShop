@@ -1,0 +1,396 @@
+# French translation by Omegadrien, MarioErmando, cynosura and Sp4rks
+# src/States/SyncState.cpp
+##########################
+Waiting for internet connection... %.0fs
+En attente d'une connexion internet... %.0fs
+
+Fetching news for %s ...
+Récupération des nouvelles\ndonnées de %s ...
+
+Loading game list...
+Chargement de la liste des jeux...
+
+Looking for freeShop update...
+Recherche d'une màj de freeShop...
+
+Installing freeShop %s ...
+Installation de freeShop %s ...
+
+Failed to install update: 0x%08lX
+Échec de l'installation\nde la mise à jour : 0x%08lX
+
+Checking latest cache...
+Vérification du cache le plus récent...
+
+Downloading latest cache: %s...
+Téléchargement du cache\nle plus récent : %s...
+
+Extracting latest cache...
+Extraction du cache le plus récent...
+
+Downloading title keys...
+Téléchargement des title keys...
+
+# src/States/BrowseState.cpp
+############################
+No title keys found.\nMake sure you have keys in\n%s\n\nManually copy keys to the directory\nor check settings to enter a URL\nfor downloading title keys.
+Aucune title keys trouvées.\nAssurez vous de les avoir dans\n%s\n\nCopiez manuellement les title keys\ndans le répertoire\nou entrez une URL dans les paramètres\nafin de les télécharger.
+
+No cache entries found\nfor your title keys.\n\nTry refreshing cache in settings.\nIf that doesn't work, then your\ntitles simply won't work with\nfreeShop currently.
+Le cache n'a pas été trouvé\n pour vos title keys.\n\nEssayez d'actualiser le cache\ndans les paramètres.\nSi cela ne fonctionne pas,\nalors vos title keys ne sont pas\ncompatibles avec freeShop\npour l'instant.
+
+Queued install: %s
+Installation en file d'attente :\n%s
+
+Already installed: %s
+Déjà installé : %s
+
+# src/States/DialogState.cpp
+############################
+ Ok
+ OK
+
+ Cancel
+ Annuler
+
+Are you sure you want\nto continue?
+Êtes-vous sûr(e)\nde vouloir continuer ?
+
+# src/States/NewsState.cpp
+##########################
+ Close
+ Fermer
+
+# src/States/QrScannerState.cpp
+###############################
+ Retry
+ Réessayer
+
+# src/AppInfo.cpp
+#################
+No Screenshots
+Pas d'images disponibles
+
+No game selected
+Aucun jeu sélectionné
+
+Demo
+Démo
+
+You are deleting the demo for\nthis title:\n\n%s
+Voulez-vous vraiment effacer\nla démo de :\n\n%s
+
+Deleted demo: %s
+Démo effacée : %s
+
+Queued demo: %s
+Démo en attente: %s
+
+You are deleting this game,\nincluding all save data:\n\n%s
+Vous allez effacer ce jeu,\net toutes ses données\nde sauvegarde :\n\n%s
+
+Deleted: %s
+Effacé : %s
+
+# src/Download.cpp
+##################
+Waiting for internet...
+En attente d'une connexion internet...
+
+Failed
+Échec
+
+Retry attempts exceeded
+Nombre de tentatives dépassé
+
+Retrying... %d
+Nouvelle tentative... %d
+
+Queued
+En attente
+
+%s\n\nAre you sure you want to cancel\nthis installation and lose all progress?
+%s\n\nVoulez-vous vraiment annuler\nl'installation et perdre\ntoute la progression ?
+
+Canceling...
+Annulation...
+
+# src/DownloadQueue.cpp
+#######################
+[Update] %s
+[Mise à jour] %s
+
+[Demo] %s
+[Démo] %s
+
+[DLC] %s
+[DLC] %s
+
+Installing ticket...
+Installation du ticket...
+
+Installing seed...
+Installation du seed...
+
+Installing TMD...
+Installation du TMD...
+
+Importing content...
+Importation du contenu...
+
+Installing %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+Installation %d/%d... %.1f%% (%.0f Ko/s) %dm %02ds
+
+Suspended
+Suspendu
+
+Completed: %s
+Terminé : %s
+
+Failed: %s
+Échoué : %s
+
+Failed: Internet problem
+Échec : problème de connexion internet
+
+Not enough space on NAND
+Pas assez d'espace sur la NAND
+
+Not enough space on SD
+Pas assez d'espace sur la carte SD
+
+Wrong title key
+Mauvaise title key
+
+# src/InstalledOptions.cpp
+#########################
+Game
+Jeu
+
+Updates
+Mises à jour
+
+DLC
+DLC
+
+You are deleting updates for\nthis title:\n\n%s
+Vous allez effacer les\nmises à jour de ce titre :\n\n%s
+
+Deleted update: %s
+Effacement de la mise à jour : %s
+
+Queued update: %s
+Mise à jour en attente : %s
+
+You are deleting DLC for\nthis title:\n\n%s
+Vous allez effacer le DLC\nde ce titre:\n\n%s
+
+Deleted DLC: %s
+Effacement du DLC : %s
+
+Queued DLC: %s
+DLC en attente : %s
+
+# src/Installer.cpp
+###################
+Failed to install ticket: 0x%08lX
+Échec d'installation du ticket : 0x%08lX
+
+Failed to get seed: HTTP %d
+Échec de l'obtention du seed : HTTP %d
+
+Need FW 9.6+, Seed failed: %016llX
+FW supérieur à 9.6 requis, échec du seed : %016llX
+
+Failed to start: 0x%08lX
+Échec du démarrage : 0x%08lX
+
+Failed to resume: 0x%08lX
+Échec de la reprise : 0x%08lX
+
+Failed to suspend: 0x%08lX
+Échec de la mise en suspens : 0x%08lX
+
+Failed to commit title: 0x%08lX
+Échec d'installation du titre : 0x%08lX
+
+Failed to finalize TMD: 0x%08lX
+Échec de la finalisation du TMD : 0x%08lX
+
+Failed to finalize content: 0x%08lX
+Échec de la finalisation du contenu : 0x%08lX
+
+Failed to import contents: 0x%08lX
+Échec d'importation du contenu : 0x%08lX
+
+Failed to install TMD: 0x%08lX
+Échec d'installation du TMD : 0x%08lX
+
+Failed to install content: 0x%08lX
+Échec d'installation du contenu : 0x%08lX
+
+# src/TitleKeys.cpp
+###################
+Failed.\n\nHTTP Status: %d
+Échec.\n\nStatut HTTP : %d
+
+Invalid title key format.
+Format de la title key invalide.
+
+Request timed out.\nTry again.
+Requête expirée.\nRéessayez.
+
+Invalid URL.
+URL invalide.
+
+# src/GUI/Settings.cpp
+######################
+Filter
+Filtre
+
+Regions
+Régions
+
+Genre
+Genre
+
+Language
+Langue
+
+Platform
+Plateforme
+
+Sort
+Trier
+
+Update
+Mise à jour
+
+Download
+Téléchargement
+
+Other
+Autre
+
+(Never checked)
+(Jamais vérifié)
+
+(Last checked: %s)
+(Dernière vérification : %s)
+
+Japan
+Japon
+
+USA
+USA
+
+Europe
+Europe
+
+English
+Anglais
+
+Japanese
+Japonais
+
+Spanish
+Espagnol
+
+French
+Français
+
+German
+Allemand
+
+Italian
+Italien
+
+Dutch
+Néerlandais
+
+Portuguese
+Portugais
+
+Russian
+Russe
+
+Filter settings saved
+Paramètres de filtre sauvegardés
+
+Cleared saved filter settings
+Paramètres de filtre réinitalisés
+
+Select All
+Tout séléctionner
+
+Select None
+Ne rien sélect.
+
+Name
+Nom
+
+Size
+Taille
+
+Vote Score
+Score des votes
+
+Vote Count
+Nombre de votes
+
+Release Date
+Date de sortie
+
+Ascending
+Croissant
+
+Descending
+Décroissant
+
+Auto-update title keys from URL
+Mise à jour automatique des title keys depuis l'URL
+
+Auto-update freeShop
+Mise à jour automatique de freeShop
+
+Refresh Cache
+Actualiser le Cache
+
+Play sound when queue finishes
+Jouer un son une fois les téléchargements terminés
+
+Power off after download inactivity
+Éteindre la 3DS si file d'attente vide après
+
+1 minute
+1 minute
+
+%d minutes
+%d minutes
+
+Use Defaults
+Réinitialiser
+
+HTTP Timeout: %.0fs
+Limite de temps HTTP : %.0fs
+
+Buffer size: %u KB
+Taille m. tampon : %u Ko
+
+Language:
+Langue :
+
+Auto-detect
+Détection auto
+
+View news (%s)
+Voir news (%s)
+
+Enable screen sleep after inactivity
+Mettre l'écran en veille après un moment d'inactivité
+
+Remote title key URL(s)
+URL(s) des title keys
+
+You need to restart freeShop for\n%s to be loaded.\n\nWould you like to do this now?
+Vous devez redémarrer freeShop\npour le lancer en %s.\n\nRedémarrer maintenant ?

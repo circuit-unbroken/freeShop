@@ -1,0 +1,395 @@
+# src/States/SyncState.cpp
+##########################
+Waiting for internet connection... %.0fs
+インターネットへ接続中です... %.0fs
+
+Fetching news for %s ...
+更新情報を取得中です %s ...
+
+Loading game list...
+ゲームリストをロードしています...
+
+Looking for freeShop update...
+フリーショップのアップデートを確認中です...
+
+Installing freeShop %s ...
+アップデートをインストールしています %s ...
+
+Failed to install update: 0x%08lX
+アップデートに失敗しました: 0x%08lX
+
+Checking latest cache...
+キャッシュの更新を確認しています...
+
+Downloading latest cache: %s...
+最新のキャッシュをダウンロードしています: %s...
+
+Extracting latest cache...
+最新のキャッシュを適用しています...
+
+Downloading title keys...
+タイトルキーをダウンロードしています...
+
+# src/States/BrowseState.cpp
+############################
+No title keys found.\nMake sure you have keys in\n%s\n\nManually copy keys to the directory\nor check settings to enter a URL\nfor downloading title keys.
+タイトルキーが見つかりませんでした\n指定された場所にファイルがあるか\n設定しているURLが正しいか確認して下さい。
+
+No cache entries found\nfor your title keys.\n\nTry refreshing cache in settings.\nIf that doesn't work, then your\ntitles simply won't work with\nfreeShop currently.
+このゲームのキャッシュが見つかりませんでした\nキャッシュを更新しても失敗する場合は\n未対応の可能性があります。
+
+Queued install: %s
+インストールリストに追加されました: %s
+
+Already installed: %s
+既にインストール済みです: %s
+
+# src/States/DialogState.cpp
+############################
+ Ok
+ 完了
+
+ Cancel
+ キャンセル
+
+Are you sure you want\nto continue?
+作業を続けますか？
+
+# src/States/NewsState.cpp
+##########################
+ Close
+ 閉じる
+
+# src/States/QrScannerState.cpp
+###############################
+ Retry
+ 再試行する
+
+# src/AppInfo.cpp
+#################
+No Screenshots
+スクリーンショットがありません
+
+No game selected
+ゲームが選択されていません
+
+Demo
+体験版
+
+You are deleting the demo for\nthis title:\n\n%s
+このゲームの体験版を削除します。
+
+Deleted demo: %s
+体験版を削除しました: %s
+
+Queued demo: %s
+体験版がDLリストに追加されました: %s
+
+You are deleting this game,\nincluding all save data:\n\n%s
+このゲームとセーブデータを削除します
+
+Deleted: %s
+削除しました: %s
+
+# src/Download.cpp
+##################
+Waiting for internet...
+インターネットに接続しています...
+
+Failed
+接続に失敗しました。
+
+Retry attempts exceeded
+再接続回数が限界に達しました
+
+Retrying... %d
+再度接続をしています... %d
+
+Queued
+順番を待っています
+
+%s\n\nAre you sure you want to cancel\nthis installation and lose all progress?
+%s\n\nインストールを中止すると\n作業中のファイルが失われますが宜しいですか
+
+Canceling...
+インストールをキャンセルしています
+
+# src/DownloadQueue.cpp
+#######################
+[Update] %s
+[アップデート] %s
+
+[Demo] %s
+[体験版] %s
+
+[DLC] %s
+[ダウンロードコンテンツ] %s
+
+Installing ticket...
+チケットをインストールしています...
+
+Installing seed...
+シードをインストールしています...
+
+Installing TMD...
+TMDをインストールしています...
+
+Importing content...
+コンテンツを取り込んでいます....
+
+Installing %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+インストールしています %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+
+Suspended
+インストールが中断されました。
+
+Completed: %s
+インストールが完了しました: %s
+
+Failed: %s
+インストールに失敗しました: %s
+
+Failed: Internet problem
+失敗: インターネット接続に問題があります
+
+Not enough space on NAND
+Nandに十分な空き容量がありません
+
+Not enough space on SD
+SDカードに十分な空き容量がありません
+
+Wrong title key
+タイトルキーが間違っています
+
+# src/InstalledOptions.cpp
+#########################
+Game
+ゲーム
+
+Updates
+更新データ
+
+DLC
+ダウンロードコンテンツ
+
+You are deleting updates for\nthis title:\n\n%s
+このゲームの更新データを削除します:\n\n%s
+
+Deleted update: %s
+更新データを削除しました: %s
+
+Queued update: %s
+更新データがDLリストに追加されました: %s
+
+You are deleting DLC for\nthis title:\n\n%s
+このゲームのダウンロードコンテンツを削除します:\n\n%s
+
+Deleted DLC: %s
+ダウンロードコンテンツを削除しました: %s
+
+Queued DLC: %s
+ダウンロードコンテンツがDLリストに追加されました: %s
+
+# src/Installer.cpp
+###################
+Failed to install ticket: 0x%08lX
+チケットのインストールに失敗しました: 0x%08lX
+
+Failed to get seed: HTTP %d
+シードの取得に失敗しました: HTTP %d
+
+Need FW 9.6+, Seed failed: %016llX
+インストールするにはファームウェアが9.6以上必要です: %016llX
+
+Failed to start: 0x%08lX
+インストールに失敗しました: 0x%08lX
+
+Failed to resume: 0x%08lX
+再開に失敗しました: 0x%08lX
+
+Failed to suspend: 0x%08lX
+中断に失敗しました: 0x%08lX
+
+Failed to commit title: 0x%08lX
+タイトルのコミットに失敗しました: 0x%08lX
+
+Failed to finalize TMD: 0x%08lX
+TMDの構築に失敗しました: 0x%08lX
+
+Failed to finalize content: 0x%08lX
+コンテンツの構築に失敗しました: 0x%08lX
+
+Failed to import contents: 0x%08lX
+コンテンツの取り込みに失敗しました: 0x%08lX
+
+Failed to install TMD: 0x%08lX
+TMDのインストールに失敗しました: 0x%08lX
+
+Failed to install content: 0x%08lX
+コンテンツのインストールに失敗しました: 0x%08lX
+
+# src/TitleKeys.cpp
+###################
+Failed.\n\nHTTP Status: %d
+接続不可.\n\nHTTPの状態: %d
+
+Invalid title key format.
+タイトルキーが不正です
+
+Request timed out.\nTry again.
+リクエストはタイムアウトしました.\n再度お試し下さい
+
+Invalid URL.
+URLが正しくありません
+
+# src/GUI/Settings.cpp
+######################
+Filter
+フィルター
+
+Regions
+地域/国
+
+Genre
+ジャンル
+
+Language
+言語
+
+Platform
+種類
+
+Sort
+分類
+
+Update
+更新設定
+
+Download
+ダウンロード
+
+Other
+その他
+
+(Never checked)
+(変更されていません)
+
+(Last checked: %s)
+(最終設定日: %s)
+
+Japan
+日本
+
+USA
+アメリカ
+
+Europe
+ヨーロッパ
+
+English
+英語
+
+Japanese
+日本語
+
+Spanish
+スペイン語
+
+French
+フランス語
+
+German
+ドイツ語
+
+Italian
+イタリア語
+
+Dutch
+ドイツ語
+
+Portuguese
+ポルトガル語
+
+Russian
+ロシア語
+
+Filter settings saved
+フィルター設定を保存しました
+
+Cleared saved filter settings
+フィルター設定を初期化しました
+
+Select All
+全て選択
+
+Select None
+全ての選択を外す
+
+Name
+名前
+
+Size
+サイズ
+
+Vote Score
+評価
+
+Vote Count
+評価の数
+
+Release Date
+発売日
+
+Ascending
+昇順
+
+Descending
+降順
+
+Auto-update title keys from URL
+URLを指定してタイトルキーを更新する
+
+Auto-update freeShop
+このソフトを自動でアップデートする
+
+Refresh Cache
+キャッシュの更新
+
+Play sound when queue finishes
+全てのダウンロードが終了したら音声で知らせる
+
+Power off after download inactivity
+ダウンロードが終了したら電源を切る
+
+1 minute
+1分
+
+%d minutes
+%d　分
+
+Use Defaults
+初期設定に戻す
+
+HTTP Timeout: %.0fs
+接続試行時間: %.0fs
+
+Buffer size: %u KB
+バッファーサイズ: %u KB
+
+Language:
+言語:
+
+Auto-detect
+自動認識
+
+View news (%s)
+更新情報の確認 (%s)
+
+Enable screen sleep after inactivity
+スリープモードを有効にする
+
+Remote title key URL(s)
+設定されているURL
+
+You need to restart freeShop for\n%s to be loaded.\n\nWould you like to do this now?
+再起動が必要です %s.\n\n再起動しますか

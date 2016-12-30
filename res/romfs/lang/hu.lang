@@ -1,0 +1,398 @@
+# src/States/SyncState.cpp
+##########################
+Waiting for internet connection... %.0fs
+Várakozás az internetkapcsolatra... %.0fmp
+
+Fetching news for %s ...
+Újdonságok beszerzése: %s ...
+
+Loading game list...
+Játékok betöltése...
+
+Looking for freeShop update...
+freeShop-frissítések keresése...
+
+Installing freeShop %s ...
+freeShop %s telepítése...
+
+Failed to install update: 0x%08lX
+A frissítés telepítése sikertelen: 0x%08lX
+
+Checking latest cache...
+Gyorsítótár-frissítés keresése...
+
+Downloading latest cache: %s...
+Legújabb gyorsítótár letöltése: %s...
+
+Extracting latest cache...
+Legújabb gyorsítótár kicsomagolása...
+
+Downloading title keys...
+Szoftverkulcsok letöltése...
+
+# src/States/BrowseState.cpp
+############################
+No title keys found.\nMake sure you have keys in\n%s\n\nManually copy keys to the directory\nor check settings to enter a URL\nfor downloading title keys.
+Nem található szoftverkulcs.\nEllenőrizd, hogy megvannak-e:\n%s\n\nVagy manuálisan illeszd be őket,a\nvagy állíts be egy URL-t a Beállításokban\naz automatikus letöltéshez.
+
+No cache entries found\nfor your title keys.\n\nTry refreshing cache in settings.\nIf that doesn't work, then your\ntitles simply won't work with\nfreeShop currently.
+A szoftverkulcsaid nem egyeznek\na gyorsítótárral.\n\nPróbáld manuálisan frissíteni a Beállításokban.\nHa így sem működnek,\nakkor a szoftverkulcsaid\nmég nem működnek a freeShoppal.
+
+Queued install: %s
+%s telepítése folyamatban.
+
+Already installed: %s
+A(z) %s már telepítve van.
+
+# src/States/DialogState.cpp
+############################
+ Ok
+ OK
+
+ Cancel
+ Mégse
+
+Are you sure you want\nto continue?
+Biztos vagy benne?
+
+# src/States/NewsState.cpp
+##########################
+ Close
+ Bezárás
+
+# src/States/QrScannerState.cpp
+###############################
+ Retry
+ Újra
+
+# src/AppInfo.cpp
+#################
+No Screenshots
+Nincsenek Képernyőmentések
+
+No game selected
+Nincs kiválasztott játék
+
+Demo
+Demó
+
+You are deleting the demo for\nthis title:\n\n%s
+Biztosan ki akarod törölni\nennek a szoftvernek a demóját?\n\n%s
+
+Deleted demo: %s
+%s demója kitörölve.
+
+Queued demo: %s
+%s demójának telepítése...
+
+You are deleting this game,\nincluding all save data:\n\n%s
+Biztosan ki akarod törölni\nezt a játékot a mentéssel együtt?\n\n%s
+
+Deleted: %s
+%s kitörölve.
+
+# src/Download.cpp
+##################
+Waiting for internet...
+Várakozás az internetkapcsolatra...
+
+Failed
+Sikertelen
+
+Retry attempts exceeded
+Kifogytak az újrapróbálkozási lehetőségek
+
+Retrying... %d
+Újrapróbálás... %d
+
+Queued
+A szoftver a sorba került
+
+%s\n\nAre you sure you want to cancel\nthis installation and lose all progress?
+%s\n\nBiztosan félbe akarod hagyni\na telepítést?
+
+Canceling...
+Félbehagyás...
+
+# src/DownloadQueue.cpp
+#######################
+[Update] %s
+[Frissítés] %s
+
+[Demo] %s
+[Demó] %s
+
+[DLC] %s
+[DLC] %s
+
+Installing ticket...
+Jegy telepítése...
+
+Installing seed...
+Seed telepítése...
+
+Installing TMD...
+TMD telepítése...
+
+Importing content...
+Tartalom importálása...
+
+Installing %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+Telepítés %d/%d... %.1f%% (%.0f KB/mp) %dp %02dmp
+
+Suspended
+Felfüggesztve
+
+Installed
+Telepítve
+
+Completed: %s
+%s telepítve.
+
+Failed: %s
+%s telepítése sikertelen.
+
+Failed: Internet problem
+Sikertelen telepítés: Internetprobléma
+
+Not enough space on NAND
+Nincs elég hely a NAND-on
+
+Not enough space on SD
+Nincs elég hely a (micro)SD-n
+
+Wrong title key
+Rossz szoftverkulcs
+
+# src/InstalledOptions.cpp
+#########################
+Game
+Játék
+
+Updates
+Frissítések
+
+DLC
+DLC
+
+You are deleting updates for\nthis title:\n\n%s
+Biztosan ki akarod törölni\nennek a játéknak\a frissítéseit?\n\n%s
+
+Deleted update: %s
+%s frissítése kitörölve
+
+Queued update: %s
+%s frissítése bekerült a sorba.
+
+You are deleting DLC for\nthis title:\n\n%s
+Biztosan ki akarod törölni\nennek a szoftvernek\na DLC-jét?\n\n%s
+
+Deleted DLC: %s
+%s DLC-je kitörölve.
+
+Queued DLC: %s
+%s DLC-je bekerült a sorba.
+
+# src/Installer.cpp
+###################
+Failed to install ticket: 0x%08lX
+A jegy telepítése sikertelen: 0x%08lX
+
+Failed to get seed: HTTP %d
+Seed megszerzése sikertelen: HTTP %d
+
+Need FW 9.6+, Seed failed: %016llX
+Seedelés sikertelen;9.6 feletti rendszer szügséges: %016llX
+
+Failed to start: 0x%08lX
+Indítás sikertelen: 0x%08lX
+
+Failed to resume: 0x%08lX
+Folytatás sikertelen: 0x%08lX
+
+Failed to suspend: 0x%08lX
+Felfüggesztés sikertelen: 0x%08lX
+
+Failed to commit title: 0x%08lX
+Commitálás sikertelen: 0x%08lX
+
+Failed to finalize TMD: 0x%08lX
+TMD befejezése sikertelen: 0x%08lX
+
+Failed to finalize content: 0x%08lX
+Tartalom befejezése sikertelen: 0x%08lX
+
+Failed to import contents: 0x%08lX
+Tartalom importálása sikertelen: 0x%08lX
+
+Failed to install TMD: 0x%08lX
+TMD telepítése sikertelen: 0x%08lX
+
+Failed to install content: 0x%08lX
+Tartalom telepítése sikertelen: 0x%08lX
+
+# src/TitleKeys.cpp
+###################
+Failed.\n\nHTTP Status: %d
+Sikertelen.\n\nHTTP Státusz: %d
+
+Invalid title key format.
+Helytelen szoftverkulcs-formátum.
+
+Request timed out.\nTry again.
+Lejárt a feldolgozási idő.\Próbáld újra.
+
+Invalid URL.
+Helytelen URL.
+
+# src/GUI/Settings.cpp
+######################
+Filter
+Filter
+
+Regions
+Régiók
+
+Genre
+Műfaj
+
+Language
+Nyelv
+
+Platform
+Platform
+
+Sort
+Sorrend
+
+Update
+Frissítés
+
+Download
+Letöltés
+
+Other
+Egyéb
+
+(Never checked)
+(Még nincs ellenőrizve)
+
+(Last checked: %s)
+(Legutóbbi ellenőrzés ideje: %s)
+
+Japan
+Japán
+
+USA
+Egyesült Államok
+
+Europe
+Európa
+
+English
+Angol
+
+Japanese
+Japán
+
+Spanish
+Spanyol
+
+French
+Francia
+
+German
+Német
+
+Italian
+Olasz
+
+Dutch
+Holland
+
+Portuguese
+Portugál
+
+Russian
+Orosz
+
+Filter settings saved
+Filter-beállítások elmentve
+
+Cleared saved filter settings
+FIlter-beállítások kitörölve
+
+Select All
+Mind
+
+Select None
+Egy sem
+
+Name
+Név
+
+Size
+Méret
+
+Vote Score
+Értékelés (pontszám)
+
+Vote Count
+Értékelés (mennyiség)
+
+Release Date
+Megjelenés dátuma
+
+Ascending
+Növekvő
+
+Descending
+Csökkenő
+
+Auto-update title keys from URL
+Szoftverkulcsok automatikus frissítése URL-ről
+
+Auto-update freeShop
+freeShop automatikus frissítése
+
+Refresh Cache
+Gyorsítótár frissítése
+
+Play sound when queue finishes
+Hangjelzés a sor befejezésekor
+
+Power off after download inactivity
+Kikapcsolás letöltési inaktivitás után
+
+1 minute
+1 perc
+
+%d minutes
+%d perc
+
+Use Defaults
+Alapbeállítások
+
+HTTP Timeout: %.0fs
+HTTP Időlimit: %.0fmp
+
+Buffer size: %u KB
+Buffer mérete: %u KB
+
+Language:
+Nyelv:
+
+Auto-detect
+Automatikus beállítás
+
+View news (%s)
+Újdonságok megjelenítése (%s)
+
+Enable screen sleep after inactivity
+Alvó Mód engedélyezése inaktivitás során
+
+Remote title key URL(s)
+Szoftverkulcs URL(-ek)
+
+You need to restart freeShop for\n%s to be loaded.\n\nWould you like to do this now?
+A %s nyelv beállításához\nújra kell indítanod a freeShopot.\n\nSzeretnéd ez most megtenni?

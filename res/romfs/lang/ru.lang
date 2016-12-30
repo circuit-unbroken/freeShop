@@ -1,0 +1,395 @@
+# src/States/SyncState.cpp
+##########################
+Waiting for internet connection... %.0fs
+Ожидание соединения с интернетом... %.0fs
+
+Fetching news for %s ...
+Загрузка списка изменений для %s ...
+
+Loading game list...
+Загрузка списка игр...
+
+Looking for freeShop update...
+Поиск обновления для freeShop...
+
+Installing freeShop %s ...
+Установка freeShop %s ...
+
+Failed to install update: 0x%08lX
+Ошибка установки обновления: 0x%08lX
+
+Checking latest cache...
+Проверка актуальности кэша...
+
+Downloading latest cache: %s...
+Загрузка нового кэша %s...
+
+Extracting latest cache...
+Извлечение нового кэша...
+
+Downloading title keys...
+Загрузка ключей приложения...
+
+# src/States/BrowseState.cpp
+############################
+No title keys found.\nMake sure you have keys in\n%s\n\nManually copy keys to the directory\nor check settings to enter a URL\nfor downloading title keys.
+Ключи для приложения не найдены.\nУбедитесь, что файл ключей находится в\n%s\n\nСкопируйте файл ключей вручную\nили зайдите в настройки и введите URL\nдля загрузки ключей через интернет.
+
+No cache entries found\nfor your title keys.\n\nTry refreshing cache in settings.\nIf that doesn't work, then your\ntitles simply won't work with\nfreeShop currently.
+Не найден подходящий кэш для ключей приложения.\n\nПопробуйте обновить кэш через настройки.\nЕсли это не помогло, то ваши приложения\nпросто не поддерживаются freeShop\nна данный момент.
+
+Queued install: %s
+В очереди установки: %s
+
+Already installed: %s
+Уже установлено: %s
+
+# src/States/DialogState.cpp
+############################
+ Ok
+ Ок
+
+ Cancel
+ Отмена
+
+Are you sure you want\nto continue?
+Вы уверены, что\nхотите продолжить?
+
+# src/States/NewsState.cpp
+##########################
+ Close
+ Закрыть
+
+# src/States/QrScannerState.cpp
+###############################
+ Retry
+ Повтор
+
+# src/AppInfo.cpp
+#################
+No Screenshots
+Нет скриншотов
+
+No game selected
+Игра не выбрана
+
+Demo
+Демо
+
+You are deleting the demo for\nthis title:\n\n%s
+Вы удаляете демо-версию\nэтого приложения:\n\n%s
+
+Deleted demo: %s
+Демо удалено: %s
+
+Queued demo: %s
+Демо в очереди: %s
+
+You are deleting this game,\nincluding all save data:\n\n%s
+Вы удаляете эту игру,\nвместе с её сохранениями:\n\n%s
+
+Deleted: %s
+Удалено: %s
+
+# src/Download.cpp
+##################
+Waiting for internet...
+Ожидание соединения с интернетом...
+
+Failed
+Не удалось
+
+Retry attempts exceeded
+Количество попыток исчерпано
+
+Retrying... %d
+Пробуем ещё раз... %d
+
+Queued
+Добавлено в очередь
+
+%s\n\nAre you sure you want to cancel\nthis installation and lose all progress?
+%s\n\nВы уверены, что хотите прервать\nустановку и потерять\nвесь прогресс?
+
+Canceling...
+Отмена...
+
+# src/DownloadQueue.cpp
+#######################
+[Update] %s
+[Обновление] %s
+
+[Demo] %s
+[Демо] %s
+
+[DLC] %s
+[DLC] %s
+
+Installing ticket...
+Установка тикета...
+
+Installing seed...
+Установка ядра...
+
+Installing TMD...
+Установка TMD...
+
+Importing content...
+Импорт контента....
+
+Installing %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+Установка %d/%d... %.1f%% (%.0f Кб/с) %dm %02ds
+
+Suspended
+Приостановлено
+
+Completed: %s
+Завершено: %s
+
+Failed: %s
+Не удалось: %s
+
+Failed: Internet problem
+Не удалось: ошибка соединения
+
+Not enough space on NAND
+Недостаточно места на NAND
+
+Not enough space on SD
+Недостаточно места на SD
+
+Wrong title key
+Неверный ключ приложения
+
+# src/InstalledOptions.cpp
+#########################
+Game
+Игра
+
+Updates
+Обновления
+
+DLC
+DLC
+
+You are deleting updates for\nthis title:\n\n%s
+Вы собираетесь удалить\nобновления для этого приложения:\n\n%s
+
+Deleted update: %s
+Обновление удалено: %s
+
+Queued update: %s
+Обновление в очереди: %s
+
+You are deleting DLC for\nthis title:\n\n%s
+Вы собираетесь удалить DLC\nдля этого приложения:\n\n%s
+
+Deleted DLC: %s
+DLC удалено: %s
+
+Queued DLC: %s
+DLC в очереди: %s
+
+# src/Installer.cpp
+###################
+Failed to install ticket: 0x%08lX
+Не удалось установить тикет: 0x%08lX
+
+Failed to get seed: HTTP %d
+Не удалось получить ядро: HTTP %d
+
+Need FW 9.6+, Seed failed: %016llX
+Необходима прошивка 9.6+, ошибка сида: %016llX
+
+Failed to start: 0x%08lX
+Ошибка запуска: 0x%08lX
+
+Failed to resume: 0x%08lX
+Не удалось продолжить: 0x%08lX
+
+Failed to suspend: 0x%08lX
+Не удалось приостановить: 0x%08lX
+
+Failed to commit title: 0x%08lX
+Не удалось заверить приложение: 0x%08lX
+
+Failed to finalize TMD: 0x%08lX
+Ошибка при завершении установки TMD: 0x%08lX
+
+Failed to finalize content: 0x%08lX
+Ошибка при завершении установки контента: 0x%08lX
+
+Failed to import contents: 0x%08lX
+Ошибка импортирования контента: 0x%08lX
+
+Failed to install TMD: 0x%08lX
+Ошибка установки TMD: 0x%08lX
+
+Failed to install content: 0x%08lX
+Ошибка установки контента: 0x%08lX
+
+# src/TitleKeys.cpp
+###################
+Failed.\n\nHTTP Status: %d
+Не удалось.\n\nСтатус HTTP: %d
+
+Invalid title key format.
+Неверный формат ключа приложения.
+
+Request timed out.\nTry again.
+Превышен предел ожидания запроса.\nПопробуйте ещё раз.
+
+Invalid URL.
+Неверный URL.
+
+# src/GUI/Settings.cpp
+######################
+Filter
+Фильтр
+
+Regions
+Регионы
+
+Genre
+Жанр
+
+Language
+Язык
+
+Platform
+Платформа
+
+Sort
+Сортировка
+
+Update
+Обновление
+
+Download
+Загрузка
+
+Other
+Другое
+
+(Never checked)
+(Никогда не проверялось)
+
+(Last checked: %s)
+(Последняя проверка: %s)
+
+Japan
+Япония
+
+USA
+США
+
+Europe
+Европа
+
+English
+Английский
+
+Japanese
+Японский
+
+Spanish
+Испанский
+
+French
+Французский
+
+German
+Немецкий
+
+Italian
+Итальянский
+
+Dutch
+Нидерландский
+
+Portuguese
+Португальский
+
+Russian
+Русский
+
+Filter settings saved
+Настройки фильтрации сохранены
+
+Cleared saved filter settings
+Настройки фильтрации очищены
+
+Select All
+Выбрать всё
+
+Select None
+Очистить
+
+Name
+Имя
+
+Size
+Размер
+
+Vote Score
+Оценка
+
+Vote Count
+Количество оценок
+
+Release Date
+Дата выхода
+
+Ascending
+По возрастанию
+
+Descending
+По убыванию
+
+Auto-update title keys from URL
+Авто-обновление ключей приложений через URL
+
+Auto-update freeShop
+Обновлять freeShop автоматически
+
+Refresh Cache
+Обновить кэш
+
+Play sound when queue finishes
+Проиграть звук при завершении очереди
+
+Power off after download inactivity
+Выключить после окончания загрузки через
+
+1 minute
+1 минуту
+
+%d minutes
+%d минут(ы)
+
+Use Defaults
+По умолчанию
+
+HTTP Timeout: %.0fs
+Таймаут HTTP: %.0fs
+
+Buffer size: %u KB
+Размер буфера: %u Кб
+
+Language:
+Язык:
+
+Auto-detect
+Автоматически
+
+View news (%s)
+Изменения (%s)
+
+Enable screen sleep after inactivity
+Включить режим сна после простоя
+
+Remote title key URL(s)
+URL(ы) для загрузки ключей приложений
+
+You need to restart freeShop for\n%s to be loaded.\n\nWould you like to do this now?
+Необходимо перезапустить freeShop,\nчтобы загрузить %s.\n\nПерезапустить сейчас?

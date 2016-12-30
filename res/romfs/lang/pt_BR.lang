@@ -1,0 +1,398 @@
+# src/States/SyncState.cpp
+##########################
+Waiting for internet connection... %.0fs
+Aguardando conexão de internet... %.0fs
+
+Fetching news for %s ...
+Buscando notícias para %s ...
+
+Loading game list...
+Carregando lista de jogos...
+
+Looking for freeShop update...
+Procurando por atualização de freeShop...
+
+Installing freeShop %s ...
+Instalando freeShop %s ...
+
+Failed to install update: 0x%08lX
+Falha ao instalar a atualização: 0x%08lX
+
+Checking latest cache...
+Verificando o cache mais recente...
+
+Downloading latest cache: %s...
+Baixando o cache mais recente: %s...
+
+Extracting latest cache...
+Extraindo o cache mais recente...
+
+Downloading title keys...
+Baixando as chaves de títulos...
+
+# src/States/BrowseState.cpp
+############################
+No title keys found.\nMake sure you have keys in\n%s\n\nManually copy keys to the directory\nor check settings to enter a URL\nfor downloading title keys.
+Chaves de títulos não encontradas.\nVerifique se você tem as chaves em\n%s\n\nCopie manualmente as chaves para\no diretório ou verifique as configurações\npara digitar um URL para\no download das chaves.
+
+No cache entries found\nfor your title keys.\n\nTry refreshing cache in settings.\nIf that doesn't work, then your\ntitles simply won't work with\nfreeShop currently.
+Nenhuma entrada de cache encontrada\npara as suas chaves de títulos.\n\nTente atualizar o cache nas configurações.\nSe isso não funcionar, então seus\ntítulos simplesmente não irão funcionar\ncom a freeShop atualmente.
+
+Queued install: %s
+Instalação em fila: %s
+
+Already installed: %s
+Já instalado: %s
+
+# src/States/DialogState.cpp
+############################
+ Ok
+ Ok
+
+ Cancel
+ Cancelar
+
+Are you sure you want\nto continue?
+Tem certeza que quer continuar?
+
+# src/States/NewsState.cpp
+##########################
+ Close
+ Fechar
+
+# src/States/QrScannerState.cpp
+###############################
+ Retry
+ Tente novamente
+
+# src/AppInfo.cpp
+#################
+No Screenshots
+Sem Capturas de Tela
+
+No game selected
+Nenhum jogo selecionado
+
+Demo
+Demo
+
+You are deleting the demo for\nthis title:\n\n%s
+Você está excluindo a demo\ndeste título:\n\n%s
+
+Deleted demo: %s
+Demo excluída: %s
+
+Queued demo: %s
+Demo em fila: %s
+
+You are deleting this game,\nincluding all save data:\n\n%s
+Você está excluindo este jogo,\nincluindo todos os dados de gravação:\n\n%s
+
+Deleted: %s
+Excluiu: %s
+
+# src/Download.cpp
+##################
+Waiting for internet...
+Aguardando internet...
+
+Failed
+Falhou
+
+Retry attempts exceeded
+Limite de tentativas excedido
+
+Retrying... %d
+Tentando novamente... %d
+
+Queued
+Em fila
+
+%s\n\nAre you sure you want to cancel\nthis installation and lose all progress?
+%s\n\nTem certeza de que deseja\ncancelar esta instalação e\nperder todo o progresso?
+
+Canceling...
+Cancelando...
+
+# src/DownloadQueue.cpp
+#######################
+[Update] %s
+[Atualização] %s
+
+[Demo] %s
+[Demo] %s
+
+[DLC] %s
+[DLC] %s
+
+Installing ticket...
+Instalando bilhete...
+
+Installing seed...
+Instalando semente...
+
+Installing TMD...
+Instalando TMD...
+
+Importing content...
+Importando conteúdo....
+
+Installing %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+Instalando %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+
+Suspended
+Suspenso
+
+Installed
+Instalado
+
+Completed: %s
+Completado: %s
+
+Failed: %s
+Falhou: %s
+
+Failed: Internet problem
+Falhou: Problema de internet
+
+Not enough space on NAND
+Não há espaço suficiente na NAND
+
+Not enough space on SD
+Não há espaço suficiente no SD
+
+Wrong title key
+Chave de título errada
+
+# src/InstalledOptions.cpp
+#########################
+Game
+Jogo
+
+Updates
+Atualizações
+
+DLC
+DLC
+
+You are deleting updates for\nthis title:\n\n%s
+Você está excluindo atualizações para\neste título:\n\n%s
+
+Deleted update: %s
+Atualização excluída: %s
+
+Queued update: %s
+Atualização em fila: %s
+
+You are deleting DLC for\nthis title:\n\n%s
+Você está excluindo DLC para\neste título:\n\n%s
+
+Deleted DLC: %s
+DLC excluída: %s
+
+Queued DLC: %s
+DLC em fila: %s
+
+# src/Installer.cpp
+###################
+Failed to install ticket: 0x%08lX
+Falha ao instalar o bilhete: 0x%08lX
+
+Failed to get seed: HTTP %d
+Falha ao obter a semente: HTTP %d
+
+Need FW 9.6+, Seed failed: %016llX
+Necessário FW 9.6+, Semente falhou: %016llX
+
+Failed to start: 0x%08lX
+Falha ao iniciar: 0x%08lX
+
+Failed to resume: 0x%08lX
+Falha ao retomar: 0x%08lX
+
+Failed to suspend: 0x%08lX
+Falha ao suspender: 0x%08lX
+
+Failed to commit title: 0x%08lX
+Falha ao consolidar título: 0x%08lX
+
+Failed to finalize TMD: 0x%08lX
+Falha ao finalizar TMD: 0x%08lX
+
+Failed to finalize content: 0x%08lX
+Falha ao finalizar o conteúdo: 0x%08lX
+
+Failed to import contents: 0x%08lX
+Falha ao importar conteúdo: 0x%08lX
+
+Failed to install TMD: 0x%08lX
+Falha ao instalar TMD: 0x%08lX
+
+Failed to install content: 0x%08lX
+Falha ao instalar o conteúdo: 0x%08lX
+
+# src/TitleKeys.cpp
+###################
+Failed.\n\nHTTP Status: %d
+Falhou.\n\nHTTP Status: %d
+
+Invalid title key format.
+Formato de chave inválido.
+
+Request timed out.\nTry again.
+A solicitação expirou.\nTente novamente.
+
+Invalid URL.
+URL inválido.
+
+# src/GUI/Settings.cpp
+######################
+Filter
+Filtro
+
+Regions
+Regiões
+
+Genre
+Gênero
+
+Language
+Idioma
+
+Platform
+Plataforma
+
+Sort
+Ordenar
+
+Update
+Atualizar
+
+Download
+Baixar
+
+Other
+Outros
+
+(Never checked)
+(Nunca marcada)
+
+(Last checked: %s)
+(Última verificação: %s)
+
+Japan
+Japão
+
+USA
+EUA
+
+Europe
+Europa
+
+English
+Inglês
+
+Japanese
+Japonês
+
+Spanish
+Espanhol
+
+French
+Francês
+
+German
+Alemão
+
+Italian
+Italiano
+
+Dutch
+Holandês
+
+Portuguese
+Português
+
+Russian
+Russo
+
+Filter settings saved
+Configurações do filtro salvas
+
+Cleared saved filter settings
+Configurações do filtro apagadas
+
+Select All
+Todos
+
+Select None
+Nenhum
+
+Name
+Nome
+
+Size
+Tamanho
+
+Vote Score
+Pontuação por Votos
+
+Vote Count
+Contagem de Votos
+
+Release Date
+Data de Lançamento
+
+Ascending
+Crescente
+
+Descending
+Decrescente
+
+Auto-update title keys from URL
+Atualizar as chaves de títulos por URL
+
+Auto-update freeShop
+Atualizar freeShop automaticamente
+
+Refresh Cache
+Atualizar Cache
+
+Play sound when queue finishes
+Reproduzir som quando fila terminar
+
+Power off after download inactivity
+Desligar após inatividade no download
+
+1 minute
+1 minuto
+
+%d minutes
+%d minutos
+
+Use Defaults
+Usar Padrões
+
+HTTP Timeout: %.0fs
+HTTP tempo limite: %.0fs
+
+Buffer size: %u KB
+Tamanho do buffer: %u KB
+
+Language:
+Idioma:
+
+Auto-detect
+Auto Detecção
+
+View news (%s)
+Ver notícias (%s)
+
+Enable screen sleep after inactivity
+Ativar tela de descanso após inatividade
+
+Remote title key URL(s)
+URL(s) remotos de chaves de títulos
+
+You need to restart freeShop for\n%s to be loaded.\n\nWould you like to do this now?
+Você precisa reiniciar o freeShop para\ncarregar %s.\n\nDeseja fazer isso agora?

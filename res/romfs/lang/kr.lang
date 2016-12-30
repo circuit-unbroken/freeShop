@@ -1,0 +1,398 @@
+# src/States/SyncState.cpp
+##########################
+Waiting for internet connection... %.0fs
+인터넷 연결을 기다리고 있습니다... %.0fs
+
+Fetching news for %s ...
+새로운 소식을 불러오고 있습니다 %s ...
+
+Loading game list...
+게임 목록을 불러오고 있습니다...
+
+Looking for freeShop update...
+freeShop 업데이트를 찾고 있습니다...
+
+Installing freeShop %s ...
+freeShop을 설치하고 있습니다 %s ...
+
+Failed to install update: 0x%08lX
+업데이트 설치를 실패했습니다: 0x%081X
+
+Checking latest cache...
+최신 캐시를 확인하고 있습니다...
+
+Downloading latest cache: %s...
+최신 캐시를 받고 있습니다: %s...
+
+Extracting latest cache...
+최신 캐시를 추출하고 있습니다...
+
+Downloading title keys...
+title key를 받고 있습니다...
+
+# src/States/BrowseState.cpp
+############################
+No title keys found.\nMake sure you have keys in\n%s\n\nManually copy keys to the directory\nor check settings to enter a URL\nfor downloading title keys.
+title key를 찾지 못했습니다.\nKey들을 다시 확인해주십시오 in\n%s\n\n디렉토리에 수동으로 key들을 복사하거나\ntitle key를 다운받거나 URL을 입력하기 위해서는\n설정을 확인해주십시오.
+
+No cache entries found\nfor your title keys.\n\nTry refreshing cache in settings.\nIf that doesn't work, then your\ntitles simply won't work with\nfreeShop currently.
+Title key에 맞는\n캐시 항목들을 찾지 못했습니다.\n\n설정에서 캐시를 새로고침 해보세요.\n문제해결이 되지 않았다면 설치되어있는\n타이틀들이 현재 freeShop에서\n호환이 안되는 것입니다.
+
+Queued install: %s
+설치 대기항목: %s
+
+Already installed: %s
+설치된 항목: %s
+
+# src/States/DialogState.cpp
+############################
+ Ok
+ 확인
+
+ Cancel
+ 취소
+
+Are you sure you want\nto continue?
+계속하시겠습니까?
+
+# src/States/NewsState.cpp
+##########################
+ Close
+ 닫기
+
+# src/States/QrScannerState.cpp
+###############################
+ Retry
+ 재시도
+
+# src/AppInfo.cpp
+#################
+No Screenshots
+스크린샷 없음
+
+No game selected
+선택된 게임 없음
+
+Demo
+데모
+
+You are deleting the demo for\nthis title:\n\n%s
+이 타이틀의 데모를\n지우게 됩니다:\n\n%s
+
+Deleted demo: %s
+지워진 데모: %s
+
+Queued demo: %s
+대기중인 데모: %s
+
+You are deleting this game,\nincluding all save data:\n\n%s
+모든 세이브 데이터와 함께\n이 게임을 지우게 됩니다:\n\n%s
+
+Deleted: %s
+삭제됨: %s
+
+# src/Download.cpp
+##################
+Waiting for internet...
+인터넷 연결을 기다리는 중...
+
+Failed
+실패
+
+Retry attempts exceeded
+재시도 제한횟수를 넘었습니다
+
+Retrying... %d
+재시도 중... %d
+
+Queued
+대기중
+
+%s\n\nAre you sure you want to cancel\nthis installation and lose all progress?
+%s\n\n설치하던 것을 취소하고\n진행하던 것을 지우시겠습까?\n
+
+Canceling...
+취소중...
+
+# src/DownloadQueue.cpp
+#######################
+[Update] %s
+[업데이트] %s
+
+[Demo] %s
+[데모] %s
+
+[DLC] %s
+[DLC] %s
+
+Installing ticket...
+ticket 설치중...
+
+Installing seed...
+seed 설치중...
+
+Installing TMD...
+TMD 설치중...
+
+Importing content...
+컨텐츠 불러오는 중....
+
+Installing %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+설치중 %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+
+Suspended
+취소됨
+
+Installed
+설치됨
+
+Completed: %s
+완료됨: %s
+
+Failed: %s
+실패: %s
+
+Failed: Internet problem
+실패: 인터넷 문제
+
+Not enough space on NAND
+NAND에 용량이 부족합니다
+
+Not enough space on SD
+SD에 용량이 부족합니다
+
+Wrong title key
+잘못된 title key입니다
+
+# src/InstalledOptions.cpp
+#########################
+Game
+게임
+
+Updates
+업데이트
+
+DLC
+DLC
+
+You are deleting updates for\nthis title:\n\n%s
+이 타이틀의 \업데이트를 지우려고 합니다:\n\n%s
+
+Deleted update: %s
+업데이트 지움: %s
+
+Queued update: %s
+대기중인 업데이트: %s
+
+You are deleting DLC for\nthis title:\n\n%s
+이 타이틀의 DLC를\지우려고 합니다:\n\n%s
+
+Deleted DLC: %s
+DLC 지움: %s
+
+Queued DLC: %s
+대기중인 DLC: %s
+
+# src/Installer.cpp
+###################
+Failed to install ticket: 0x%08lX
+ticket 설치 실패: 0x%08lX
+
+Failed to get seed: HTTP %d
+seed 불러오기 실패: HTTP %d
+
+Need FW 9.6+, Seed failed: %016llX
+펌웨어 9.6+ 버전이 필요합니다, seed 실패: %016llX
+
+Failed to start: 0x%08lX
+실행 실패: 0x%08lX
+
+Failed to resume: 0x%08lX
+다시 계속 실패: 0x%08lX
+
+Failed to suspend: 0x%08lX
+중지 실패: 0x%08lX
+
+Failed to commit title: 0x%08lX
+타이틀 통합 실패: 0x%08lX
+
+Failed to finalize TMD: 0x%08lX
+TMD 마무리 짓기 실패: 0x%08lX
+
+Failed to finalize content: 0x%08lX
+컨텐츠 마무리 짓기 실패: 0x%08lX
+
+Failed to import contents: 0x%08lX
+컨텐츠 불러오기 실패: 0x%08lX
+
+Failed to install TMD: 0x%08lX
+TMD 설치 실패: 0x%08lX
+
+Failed to install content: 0x%08lX
+컨텐츠 설치 실패: 0x%08lX
+
+# src/TitleKeys.cpp
+###################
+Failed.\n\nHTTP Status: %d
+실패.\n\nHTTP 상태: %d
+
+Invalid title key format.
+잘못된 title key 형식입니다.
+
+Request timed out.\nTry again.
+접속이 너무 늦습니다.\n다시 시도해주세요.
+
+Invalid URL.
+잘못된 URL입니다.
+
+# src/GUI/Settings.cpp
+######################
+Filter
+필터
+
+Regions
+지역
+
+Genre
+장르
+
+Language
+언어
+
+Platform
+플랫폼
+
+Sort
+구분
+
+Update
+업데이트
+
+Download
+다운로드
+
+Other
+그 외
+
+(Never checked)
+(확인해본적 없음)
+
+(Last checked: %s)
+(마지막으로 확인한: %s)
+
+Japan
+일본
+
+USA
+북미
+
+Europe
+유럽
+
+English
+영어
+
+Japanese
+일본어
+
+Spanish
+스페인어
+
+French
+프랑스어
+
+German
+독일어
+
+Italian
+이탈리아어
+
+Dutch
+네덜란드어
+
+Portuguese
+포르투갈어
+
+Russian
+러시아어
+
+Filter settings saved
+필터 설정 저장됨
+
+Cleared saved filter settings
+저장된 필터 설정 초기화됨
+
+Select All
+모두 선택
+
+Select None
+모두 선택해제
+
+Name
+이름
+
+Size
+크기
+
+Vote Score
+투표 점수
+
+Vote Count
+투표수
+
+Release Date
+발매일
+
+Ascending
+오름차순
+
+Descending
+내림차순
+
+Auto-update title keys from URL
+URL을 통해 title key 자동업데이트 하기
+
+Auto-update freeShop
+freeShop 자동업데이트 하기
+
+Refresh Cache
+캐시 새로고침
+
+Play sound when queue finishes
+대기중이 완료되면 소리 재생하기
+
+Power off after download inactivity
+다운로드 중인게 없으면 전원끄기
+
+1 minute
+1 분
+
+%d minutes
+%d 분
+
+Use Defaults
+기존설정 사용
+
+HTTP Timeout: %.0fs
+HTTP 타임아웃: %.0fs
+
+Buffer size: %u KB
+버퍼 크기: %u KB
+
+Language:
+언어:
+
+Auto-detect
+자동 탐지
+
+View news (%s)
+소식 보기 (%s)
+
+Enable screen sleep after inactivity
+활동이 없을 때 화면끄기
+
+Remote title key URL(s)
+원격 title key URL(들)
+
+You need to restart freeShop for\n%s to be loaded.\n\nWould you like to do this now?
+freeShop을 재시작하여\n%s(을)를 로딩합니다.\n\n지금 다시시작 하시겠습니까?

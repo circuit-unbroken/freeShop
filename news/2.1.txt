@@ -1,0 +1,17 @@
+• Add version news log (like it?)
+• Add language support with Portuguese
+  translation. More languages soon™!
+• Add save buttons for filters.
+• Fix bug when restarting failed installs.
+• Fix download suspension and timeouts
+  for people with slower connection.
+• Add timeout and buffer size to Download
+  Settings so users can adjust to better fit
+  various speeds of internet connection.
+• You can now use C-Pad to scroll games
+  and holding keys keeps it scrolling.
+• Can choose to play sound or power off
+  console after queue finishes.
+• Can disable screen sleep mode in settings.
+• Swapped shopping bag and game
+  controller icons.

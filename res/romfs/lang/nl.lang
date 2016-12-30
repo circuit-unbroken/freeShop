@@ -1,0 +1,398 @@
+# src/States/SyncState.cpp
+##########################
+Waiting for internet connection... %.0fs
+Wachten op internetverbinding... %.0fs
+
+Fetching news for %s ...
+Nieuws ophalen voor %s ...
+
+Loading game list...
+Laden van gamelijst...
+
+Looking for freeShop update...
+Controleren voor freeShop updates...
+
+Installing freeShop %s ...
+freeShop installeren %s ...
+
+Failed to install update: 0x%08lX
+Update installeren mislukt: 0x%08lX
+
+Checking latest cache...
+Laatste cache controleren...
+
+Downloading latest cache: %s...
+Laatste cache ophalen: %s...
+
+Extracting latest cache...
+Laatste cache uitpakken...
+
+Downloading title keys...
+Title keys downloaden...
+
+# src/States/BrowseState.cpp
+############################
+No title keys found.\nMake sure you have keys in\n%s\n\nManually copy keys to the directory\nor check settings to enter a URL\nfor downloading title keys.
+Geen title keys gevonden.\nControleer of de keys in\n%s\n\nKopieer de keys handmatig of controleer\nde instellingen om een\nURL in te voeren voor\nhet downloaden van de keys
+
+No cache entries found\nfor your title keys.\n\nTry refreshing cache in settings.\nIf that doesn't work, then your\ntitles simply won't work with\nfreeShop currently.
+Geen cache gevonden voor\ntitle keys.\n\nProbeer de cache te herladen.\nAls dat niet werkt, dan werken\ndeze title keys niet met\nfreeShop.
+
+Queued install: %s
+Wachtrij: %s
+
+Already installed: %s
+Reeds geïnstalleerd: %s
+
+# src/States/DialogState.cpp
+############################
+ Ok
+ Ok
+
+ Cancel
+ Annuleer
+
+Are you sure you want\nto continue?
+Weet je zeker dat je door wilt gaan?
+
+# src/States/NewsState.cpp
+##########################
+ Close
+ Sluiten
+
+# src/States/QrScannerState.cpp
+###############################
+ Retry
+ Opnieuw proberen
+
+# src/AppInfo.cpp
+#################
+No Screenshots
+Geen schermafbeeldingen
+
+No game selected
+Geen spel geselecteerd
+
+Demo
+Demo
+
+You are deleting the demo for\nthis title:\n\n%s
+Je verwijdert de demo voor\ndeze titel:\n\n%s
+
+Deleted demo: %s
+Demo verwijderd: %s
+
+Queued demo: %s
+Demo wachtrij: %s
+
+You are deleting this game,\nincluding all save data:\n\n%s
+Je verwijdert dit spel,\ninclusief al je save data:\n\n%s
+
+Deleted: %s
+Verwijderd: %s
+
+# src/Download.cpp
+##################
+Waiting for internet...
+Wachten op een internetverbinding...
+
+Failed
+Mislukt
+
+Retry attempts exceeded
+Te vaak mislukt
+
+Retrying... %d
+Opnieuw proberen... %d
+
+Queued
+Wachtrij
+
+%s\n\nAre you sure you want to cancel\nthis installation and lose all progress?
+%s\n\nWeet je zeker dat je wilt annuleren\nen alle voortgang wilt verliezen?
+
+Canceling...
+Annuleren...
+
+# src/DownloadQueue.cpp
+#######################
+[Update] %s
+[Update] %s
+
+[Demo] %s
+[Demo] %s
+
+[DLC] %s
+[DLC] %s
+
+Installing ticket...
+Ticket installeren...
+
+Installing seed...
+Seed installeren...
+
+Installing TMD...
+TMD installeren...
+
+Importing content...
+Content importeren....
+
+Installing %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+Installeren %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+
+Suspended
+Gepauzeerd
+
+Installed
+Geïnstalleerd
+
+Completed: %s
+Voltooid: %s
+
+Failed: %s
+Mislukt: %s
+
+Failed: Internet problem
+Mislukt: Internet probleem
+
+Not enough space on NAND
+Niet genoeg ruimte op NAND
+
+Not enough space on SD
+Niet genoeg ruimte op SD
+
+Wrong title key
+Verkeerde title key
+
+# src/InstalledOptions.cpp
+#########################
+Game
+Game
+
+Updates
+Updates
+
+DLC
+DLC
+
+You are deleting updates for\nthis title:\n\n%s
+Je verwijdert updates voor\ndeze game:\n\n%s
+
+Deleted update: %s
+Update verwijderd: %s
+
+Queued update: %s
+Update in wachtrij: %s
+
+You are deleting DLC for\nthis title:\n\n%s
+Je verwijdert de DLC voor\ndeze game:\n\n%s
+
+Deleted DLC: %s
+DLC verwijderd: %s
+
+Queued DLC: %s
+DLC in wachtrij: %s
+
+# src/Installer.cpp
+###################
+Failed to install ticket: 0x%08lX
+Ticket installeren mislukt: 0x%08lX
+
+Failed to get seed: HTTP %d
+Seed ophalen mislukt: HTTP %d
+
+Need FW 9.6+, Seed failed: %016llX
+Seed mislukt, vereist versie 9.6 of hoger: %016llX
+
+Failed to start: 0x%08lX
+Starten mislukt: 0x%08lX
+
+Failed to resume: 0x%08lX
+Hervatten mislukt: 0x%08lX
+
+Failed to suspend: 0x%08lX
+Pauzeren mislukt: 0x%08lX
+
+Failed to commit title: 0x%08lX
+Titel toewijden mislukt: 0x%08lX
+
+Failed to finalize TMD: 0x%08lX
+TMD beëindigen mislukt: 0x%08lX
+
+Failed to finalize content: 0x%08lX
+Content beëindigen mislukt: 0x%08lX
+
+Failed to import contents: 0x%08lX
+Content importeren mislukt: 0x%08lX
+
+Failed to install TMD: 0x%08lX
+TMD installeren mislukt: 0x%08lX
+
+Failed to install content: 0x%08lX
+Content installeren mislukt: 0x%08lX
+
+# src/TitleKeys.cpp
+###################
+Failed.\n\nHTTP Status: %d
+Mislukt.\n\nHTTP Status: %d
+
+Invalid title key format.
+Ongeldige title key formaat.
+
+Request timed out.\nTry again.
+Aanvraag timeout.\nProbeer opnieuw.
+
+Invalid URL.
+Ongeldige URL.
+
+# src/GUI/Settings.cpp
+######################
+Filter
+Filter
+
+Regions
+Regio
+
+Genre
+Categorie
+
+Language
+Taal
+
+Platform
+Platform
+
+Sort
+Sorteren
+
+Update
+Update
+
+Download
+Download
+
+Other
+Andere
+
+(Never checked)
+(Nooit gecontroleerd)
+
+(Last checked: %s)
+(Laatst gecontroleerd: %s)
+
+Japan
+Japan
+
+USA
+USA
+
+Europe
+Europa
+
+English
+Engels
+
+Japanese
+Japans
+
+Spanish
+Spaans
+
+French
+Frans
+
+German
+Duits
+
+Italian
+Italiaans
+
+Dutch
+Nederlands
+
+Portuguese
+Portugees
+
+Russian
+Russisch
+
+Filter settings saved
+Filter instellingen opgeslagen
+
+Cleared saved filter settings
+Filter instellingen gewist
+
+Select All
+Selecteer alles
+
+Select None
+Selecteer niks
+
+Name
+Naam
+
+Size
+Grootte
+
+Vote Score
+Score
+
+Vote Count
+Aantal stemmen
+
+Release Date
+Datum uitgave
+
+Ascending
+Oplopend
+
+Descending
+Aflopend
+
+Auto-update title keys from URL
+Title keys automatisch updaten van URL
+
+Auto-update freeShop
+freeShop automatisch updaten
+
+Refresh Cache
+Cache herladen
+
+Play sound when queue finishes
+Geluid afspelen wanneer wachtrij voltooid
+
+Power off after download inactivity
+Uitschakelen na download inactiviteit
+
+1 minute
+1 minuut
+
+%d minutes
+%d minuten
+
+Use Defaults
+Gebruik standaard
+
+HTTP Timeout: %.0fs
+HTTP Timeout: %.0fs
+
+Buffer size: %u KB
+Buffergrootte: %u KB
+
+Language:
+Taal:
+
+Auto-detect
+Automatisch detecteren
+
+View news (%s)
+Bekijk nieuws (%s)
+
+Enable screen sleep after inactivity
+Laat scherm slapen na inactiviteit
+
+Remote title key URL(s)
+Title key URL
+
+You need to restart freeShop for\n%s to be loaded.\n\nWould you like to do this now?
+freeShop moet opnieuw worden opgestart voor\nom geladen te worden %s.\n\nWil je dit nu doen?

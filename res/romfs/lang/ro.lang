@@ -1,0 +1,398 @@
+# src/States/SyncState.cpp
+##########################
+Waiting for internet connection... %.0fs
+Asteptand o conectie la internet... %.0fs
+
+Fetching news for %s ...
+Descarcand stirile pentru %s ...
+
+Loading game list...
+Incarcand lista de jocuri...
+
+Looking for freeShop update...
+Verificand pentru orice update...
+
+Installing freeShop %s ...
+Instaland freeShop %s ...
+
+Failed to install update: 0x%08lX
+Nu sa putut instala update-ul: 0x%08lX
+
+Checking latest cache...
+Verificand cel mai recent cache...
+
+Downloading latest cache: %s...
+Descarcand cel mai recent cache: %s...
+
+Extracting latest cache...
+Extractand cel mai recent cache...
+
+Downloading title keys...
+Descarcand title key-urile...
+
+# src/States/BrowseState.cpp
+############################
+No title keys found.\nMake sure you have keys in\n%s\n\nManually copy keys to the directory\nor check settings to enter a URL\nfor downloading title keys.
+Nu s-au putut gasi title key-uri.\nVerifica daca ai key-uri in\n%s\n\nCopie fisierul manual in folder\nori verifica setarile pentru a introduce un URL\npentru a descarca key-urile.
+
+No cache entries found\nfor your title keys.\n\nTry refreshing cache in settings.\nIf that doesn't work, then your\ntitles simply won't work with\nfreeShop currently.
+Nu au putut fi gasit nici un cache\npentru key-uri.\n\nIncearca sa d-ai refresh in setaris.\nDaca asta nu functioneaza, atunci\nkey-urile tale nu vor functiona\ncu freeShop momentan.
+
+Queued install: %s
+Instalarea a fost adaugata la lista: %s
+
+Already installed: %s
+Deja instalata: %s
+
+# src/States/DialogState.cpp
+############################
+ Ok
+ Ok
+
+ Cancel
+ Anulare
+
+Are you sure you want\nto continue?
+Esti sigur ca vrei sa continui?
+
+# src/States/NewsState.cpp
+##########################
+ Close
+ Inchide
+
+# src/States/QrScannerState.cpp
+###############################
+ Retry
+ Re-incearca
+
+# src/AppInfo.cpp
+#################
+No Screenshots
+Nici un Screenshot
+
+No game selected
+Nici un joc selectat
+
+Demo
+Demo
+
+You are deleting the demo for\nthis title:\n\n%s
+Stergi demo-ul pentru\nacest titlu:\n\n%s
+
+Deleted demo: %s
+Demo-ul a fost sters: %s
+
+Queued demo: %s
+Demo-ul a fost adaugat la lista: %s
+
+You are deleting this game,\nincluding all save data:\n\n%s
+Acest joc va fi sters,\nincluzand toate salvarile:\n\n%s
+
+Deleted: %s
+Sters: %s
+
+# src/Download.cpp
+##################
+Waiting for internet...
+Asteptand pentru o conexiune...
+
+Failed
+Esuare
+
+Retry attempts exceeded
+Re-incercarile au fost supra-incarcate
+
+Retrying... %d
+Re-incercand... %d
+
+Queued
+Adaugat la lista
+
+%s\n\nAre you sure you want to cancel\nthis installation and lose all progress?
+%s\n\nEsti sigur ca vrei sa anulezi\naceasta instalare si\nsa pierzi tot progresul?
+
+Canceling...
+Anuland...
+
+# src/DownloadQueue.cpp
+#######################
+[Update] %s
+[Actualizeaza] %s
+
+[Demo] %s
+[Demo] %s
+
+[DLC] %s
+[DLC] %s
+
+Installing ticket...
+Instaland Ticketul...
+
+Installing seed...
+Instaland Seedul...
+
+Installing TMD...
+Instaland TMDul...
+
+Importing content...
+Importand fisierele...
+
+Installing %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+Instaland %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+
+Suspended
+Suspendat
+
+Installed
+Instalat
+
+Completed: %s
+Completat: %s
+
+Failed: %s
+Esuat: %s
+
+Failed: Internet problem
+Esuat: Problema de internet
+
+Not enough space on NAND
+Nu este spatiu sufficient pe NAND
+
+Not enough space on SD
+Nu este spatiu sufficent pe SD
+
+Wrong title key
+Title key gresit
+
+# src/InstalledOptions.cpp
+#########################
+Game
+Joc
+
+Updates
+Actualizari
+
+DLC
+DLC
+
+You are deleting updates for\nthis title:\n\n%s
+Vei sterge update-urile pentru\nacest titlu:\n\n%s
+
+Deleted update: %s
+Update-ul a fost sters: %s
+
+Queued update: %s
+Update-ul a fost adaugat la lista: %s
+
+You are deleting DLC for\nthis title:\n\n%s
+Vei sterge DLC pentru\nacest titlu:\n\n%s
+
+Deleted DLC: %s
+DLC-ul a fost sters: %s
+
+Queued DLC: %s
+DLC-ul a fost adaugat la lista: %s
+
+# src/Installer.cpp
+###################
+Failed to install ticket: 0x%08lX
+Ticket-ul nu a putut fi instalat: 0x%08lX
+
+Failed to get seed: HTTP %d
+Nu am putut l-ua seed-ul: HTTP %d
+
+It FW 9.6+, Seed failed: %016llX
+Iti trebuie FW 9.6+, Seed-ul a esuat: %016llX
+
+Failed to start: 0x%08lX
+Nu a putut pornii: 0x%08lX
+
+Failed to resume: 0x%08lX
+Nu a putut re-lua: 0x%08lX
+
+Failed to suspend: 0x%08lX
+Nu am putut da suspend: 0x%08lX
+
+Failed to commit title: 0x%08lX
+Nu am putut adauga titlul: 0x%08lX
+
+Failed to finalize TMD: 0x%08lX
+Nu am putut initializa TMD: 0x%08lX
+
+Failed to finalize content: 0x%08lX
+Nu a putut sa fie terminat content-ul: 0x%08lX
+
+Failed to import contents: 0x%08lX
+Nu s-au putut importa content-urile: 0x%08lX
+
+Failed to install TMD: 0x%08lX
+Nu sa putut instala TMD: 0x%08lX
+
+Failed to install content: 0x%08lX
+Nu am putut instala content-ul: 0x%08lX
+
+# src/TitleKeys.cpp
+###################
+Failed.\n\nHTTP Status: %d
+Esuat.\n\nHTTP Status: %d
+
+Invalid title key format.
+Format-ul title key este invalid.
+
+Request timed out.\nTry again.
+Timed Out.\nIncearca din nou.
+
+Invalid URL.
+URL Invalid.
+
+# src/GUI/Settings.cpp
+######################
+Filter
+Filtru
+
+Regions
+Regiuni
+
+Genre
+Genre
+
+Language
+Limba
+
+Platform
+Plataforma
+
+Sort
+Sorteaza
+
+Update
+Actualizare
+
+Download
+Descarcare
+
+Other
+Altele
+
+(Never checked)
+(Nu a fost verificat niciodata)
+
+(Last checked: %s)
+(Ultima data verificata: %s)
+
+Japan
+Japonia
+
+USA
+USA
+
+Europe
+Europa
+
+English
+Engleza
+
+Japanese
+Japoneza
+
+Spanish
+Spaniola
+
+French
+Franceza
+
+German
+Germana
+
+Italian
+Italiana
+
+Dutch
+Olandeza
+
+Portuguese
+Portugueza
+
+Russian
+Rusa
+
+Filter settings saved
+Setarile filter salvate
+
+Cleared saved filter settings
+Setarile filter au fost sterse
+
+Select All
+Selecteaza toate
+
+Select None
+Nu selecta nimic
+
+Name
+Nume
+
+Size
+Marime
+
+Vote Score
+Scor la vot
+
+Vote Count
+Numar de voturi
+
+Release Date
+Data de lansare
+
+Ascending
+In crestere
+
+Descending
+In scadere
+
+Auto-update title keys from URL
+Actualizare automata key-uri din URL
+
+Auto-update freeShop
+Actualizare automata freeShop
+
+Refresh Cache
+Re-incarca Cache
+
+Play sound when queue finishes
+Ruleaza sunetul cand lista se termina
+
+Power off after download inactivity
+Inchide dupa inactivitate la descarcare
+
+1 minute
+1 minut
+
+%d minutes
+%d minute
+
+Use Defaults
+Reseteaza
+
+HTTP Timeout: %.0fs
+HTTP Timeout: %.0fs
+
+Buffer size: %u KB
+Marime buffer: %u KB
+
+Language:
+Limba:
+
+Auto-detect
+Detectare automata
+
+View news (%s)
+Vizualizeaza stirile (%s)
+
+Enable screen sleep after inactivity
+Porneste ecranul dupa inactivitate
+
+Remote title key URL(s)
+URL pentru title key-uri
+
+You need to restart freeShop for\n%s to be loaded.\n\nWould you like to do this now?
+Va trebui sa repornesti freeShop pentru ca\nsa fie incarcat %s.\n\nDoresti sa faci asta acum?

@@ -1,0 +1,10 @@
+• When possible, game descriptions
+  are now loaded in your selected language.
+• Added language translations:
+    - Japanese
+    - French
+    - German
+    - Spanish
+    - Italian
+    - Russian
+    - Greek

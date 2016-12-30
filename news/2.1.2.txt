@@ -1,0 +1,7 @@
+• Add sorting by eShop Release Date.
+• Add cart and system titles to installed
+  game list (e.g. Home Menu and Mii Plaza)
+• Add language translations:
+    - Dutch
+    - Hungarian
+    - Romanian

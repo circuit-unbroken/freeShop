@@ -1,0 +1,398 @@
+# src/States/SyncState.cpp
+##########################
+Waiting for internet connection... %.0fs
+İnternet bağlantısı bekleniyor... %.0fs
+
+Fetching news for %s ...
+%s için haberler alınıyor...
+
+Loading game list...
+Oyun listesi yükleniyor...
+
+Looking for freeShop update...
+freeShop güncellemesine bakılıyor...
+
+Installing freeShop %s ...
+freeShop yükleniyor %s ...
+
+Failed to install update: 0x%08lX
+Güncelleme yüklemesi başarısız oldu: 0x%08lX
+
+Checking latest cache...
+En son önbellek kontrol ediliyor...
+
+Downloading latest cache: %s...
+En son önbellek indiriliyor: %s...
+
+Extracting latest cache...
+En son önbellek çıkartılıyor...
+
+Downloading title keys...
+Uygulama anahtarları indiriliyor...
+
+# src/States/BrowseState.cpp
+############################
+No title keys found.\nMake sure you have keys in\n%s\n\nManually copy keys to the directory\nor check settings to enter a URL\nfor downloading title keys.
+Hiçbir başlık anahtarları bulunamadı\n%s 'in içinde anahtarların olduğundan emin olun\nEL ile konuma anahtarları kopyalayın\nyada başlık anahtarlarını indirmesi için URL girmek için ayarları kontrol edin.
+
+No cache entries found\nfor your title keys.\n\nTry refreshing cache in settings.\nIf that doesn't work, then your\ntitles simply won't work with\nfreeShop currently.
+başlık anahtarlarınız\fiçin önbellek girdileri bulunamadı.\n\nAyarlarda önbelleği yenilemeyi deneyin.\neğer çalışmassa,o zaman başlıklarınız\nfreeShop'la\nbirlikte şu an çalışmıyor demektir.
+
+Queued install: %s
+Sıraya girmiş yükleme: %s
+
+Already installed: %s
+Zaten yüklenmiş: %s
+
+# src/States/DialogState.cpp
+############################
+ Ok
+ Tamam
+
+ Cancel
+ İptal
+
+Are you sure you want\nto continue?
+Devam etmek istediğinizden emin misin?
+
+# src/States/NewsState.cpp
+##########################
+ Close
+ Kapat
+
+# src/States/QrScannerState.cpp
+###############################
+ Retry
+ Tekrar dene
+
+# src/AppInfo.cpp
+#################
+No Screenshots
+Ekran alıntısı yok
+
+No game selected
+Hiçbir başlık seçilmedi
+
+Demo
+Demo
+
+You are deleting the demo for\nthis title:\n\n%s
+Demoyu\nbu başlık için siliyorsunuz :\n\n%s
+
+Deleted demo: %s
+Demo silindi: %s
+
+Queued demo: %s
+Sıraya girmiş demo: %s
+
+You are deleting this game,\nincluding all save data:\n\n%s
+Bu oyunu siliyorsunuz,\nbütün kayıt verisiyle:\n\n%s
+
+Deleted: %s
+Silindi: %s
+
+# src/Download.cpp
+##################
+Waiting for internet...
+İnternet bekleniyor...
+
+Failed
+Başarısız
+
+Retry attempts exceeded
+Tekrar deneme denemeleri aşıldı
+
+Retrying... %d
+Tekrar deneniyor... %d
+
+Queued
+Sıraya girdi
+
+%s\n\nAre you sure you want to cancel\nthis installation and lose all progress?
+%s\n\nBu yüklemeyi iptal edip bütün ilerlemeyi\nkaydetmek istediğinizden emin misiniz?
+
+Canceling...
+İptal ediliyor...
+
+# src/DownloadQueue.cpp
+#######################
+[Update] %s
+[Güncelleme] %s
+
+[Demo] %s
+[Demo] %s
+
+[DLC] %s
+[DLC] %s
+
+Installing ticket...
+Bilet yükleniyor...
+
+Installing seed...
+Tohum yükleniyor...
+
+Installing TMD...
+TMD yükleniyor...
+
+Importing content...
+İçerik alınıyor....
+
+Installing %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+Yükleniyor %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+
+Suspended
+Askıya alındı
+
+Installed
+Yüklendi
+
+Completed: %s
+Tamamlandı: %s
+
+Failed: %s
+Başarısız: %s
+
+Failed: Internet problem
+Başarısız: İnternet sorunu
+
+Not enough space on NAND
+NAND'de yeteri kadar hafıza yok
+
+Not enough space on SD
+SD Kart'ta yeteri kadar alan yok
+
+Wrong title key
+Yanlış başlık anahtarı
+
+# src/InstalledOptions.cpp
+#########################
+Game
+Oyun
+
+Updates
+Güncellemeler
+
+DLC
+DLC
+
+You are deleting updates for\nthis title:\n\n%s
+Bu\noyun için güncellemeleri siliyorsunuz:\n\n%s
+
+Deleted update: %s
+Silinmiş güncelleme: %s
+
+Queued update: %s
+Sıraya girmiş güncelleme: %s
+
+You are deleting DLC for\nthis title:\n\n%s
+Bu\noyun için DLC'leri siliyorsunuz:\n\n%s
+
+Deleted DLC: %s
+Silinmiş DLC: %s
+
+Queued DLC: %s
+Sıraya girmiş DLC: %s
+
+# src/Installer.cpp
+###################
+Failed to install ticket: 0x%08lX
+Bilet indirlmesi başarısız oldu: 0x%08lX
+
+Failed to get seed: HTTP %d
+Tohum alma başarısız oldu: HTTP %d
+
+Need FW 9.6+, Seed failed: %016llX
+Sisten sürümü 9.6 ve üstü olması gerek, tohumm başarısız: %016llX
+
+Failed to start: 0x%08lX
+Başlatma başarısız oldu: 0x%08lX
+
+Failed to resume: 0x%08lX
+Devam etme başarısız oldu: 0x%08lX
+
+Failed to suspend: 0x%08lX
+Askıya alma başarısız oldu: 0x%08lX
+
+Failed to commit title: 0x%08lX
+Oyunu işleme başarısız oldu: 0x%08lX
+
+Failed to finalize TMD: 0x%08lX
+TMD'yi tamamlamak başarısız: 0x%08lX
+
+Failed to finalize content: 0x%08lX
+İçeriği tamamlamak başarısız oldu: 0x%08lX
+
+Failed to import contents: 0x%08lX
+İçeriği almak başarısız oldu: 0x%08lX
+
+Failed to install TMD: 0x%08lX
+TMD'yi yüklemek başarısız oldu: 0x%08lX
+
+Failed to install content: 0x%08lX
+İçeriği yüklemek başarısız oldu: 0x%08lX
+
+# src/TitleKeys.cpp
+###################
+Failed.\n\nHTTP Status: %d
+Başarısız.\n\nHTTP Durumu: %d
+
+Invalid title key format.
+Geçersiz başlık anahtarı düzeni.
+
+Request timed out.\nTry again.
+İstek zaman aşımı.\nTekrar deneyin.
+
+Invalid URL.
+Geçersiz URL.
+
+# src/GUI/Settings.cpp
+######################
+Filter
+Filtre
+
+Regions
+Bölgeler
+
+Genre
+Tür
+
+Language
+Dil
+
+Platform
+Platform
+
+Sort
+Tür
+
+Update
+Güncelle
+
+Download
+İndir
+
+Other
+Diğer
+
+(Never checked)
+(Hiçbir zaman kontrol edilmedi)
+
+(Last checked: %s)
+(En son kontrol edildi: %s)
+
+Japan
+Japonya
+
+USA
+ABD
+
+Europe
+Avrupa
+
+English
+İngilizce
+
+Japanese
+Japonca
+
+Spanish
+İspanyolca
+
+French
+Fransızca
+
+German
+Almanca
+
+Italian
+Italyanca
+
+Dutch
+Hollandaca
+
+Portuguese
+Portekizce
+
+Russian
+Rusça
+
+Filter settings saved
+Filtre ayarları kaydedildi
+
+Cleared saved filter settings
+Kaydedilmiş filtre ayarları silindi
+
+Select All
+Hepsini seç
+
+Select None
+Hiçbirini seçme
+
+Name
+İsim
+
+Size
+Boyut
+
+Vote Score
+Oylama Puanı
+
+Vote Count
+Oylama Sayısı
+
+Release Date
+Çıktığı Tarih
+
+Ascending
+Yükseliyor
+
+Descending
+İniyor
+
+Auto-update title keys from URL
+URL'den başlık anahtarlarını otomatik güncelle
+
+Auto-update freeShop
+freeShop'u otomatik günceller
+
+Refresh Cache
+Önbelleği yenile
+
+Play sound when queue finishes
+Kuyruk bittiğinde ses çal
+
+Power off after download inactivity
+İndirme hareketsizliğinde gücü kapat
+
+1 minute
+1 dakika
+
+%d minutes
+%d dakika
+
+Use Defaults
+Varsayılanları kullan
+
+HTTP Timeout: %.0fs
+HTTP zaman aşımı: %.0fs
+
+Buffer size: %u KB
+Hafıza boyutu: %u KB
+
+Language:
+Dil:
+
+Auto-detect
+Otomatik belirle
+
+View news (%s)
+Haberlere bak (%s)
+
+Enable screen sleep after inactivity
+Hareketsizlikte uyku modunu etkinleştir
+
+Remote title key URL(s)
+Başlık anahtarı URL'sini/lerini kontrol et
+
+You need to restart freeShop for\n%s to be loaded.\n\nWould you like to do this now?
+%s'in\nbaşlaması için freeShop'un yeniden başlatılması gerekli.\n\nBunu şimdi yapmak istediğinizden emin misiniz?

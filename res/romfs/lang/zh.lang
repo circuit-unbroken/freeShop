@@ -1,0 +1,395 @@
+# src/States/SyncState.cpp
+##########################
+Waiting for internet connection... %.0fs
+等待网络连接... %.0fs
+
+Fetching news for %s ...
+正在获取%s的更新内容...
+
+Loading game list...
+加载游戏列表...
+
+Looking for freeShop update...
+检查freeShop是否有更新...
+
+Installing freeShop %s ...
+安装 freeShop %s ...
+
+Failed to install update: 0x%08lX
+无法安装更新: 0x%08lX
+
+Checking latest cache...
+检查最新缓存...
+
+Downloading latest cache: %s...
+下载最新缓存: %s...
+
+Extracting latest cache...
+解压最新缓存...
+
+Downloading title keys...
+下载title key文件...
+
+# src/States/BrowseState.cpp
+############################
+No title keys found.\nMake sure you have keys in\n%s\n\nManually copy keys to the directory\nor check settings to enter a URL\nfor downloading title keys.
+没有找到title key文件.\n请确认你已拥有title key\n%s\n\n手动复制title key到以下路径\n或者查看设置选项输入一个URL地址\n以用于下载title key.
+
+No cache entries found\nfor your title keys.\n\nTry refreshing cache in settings.\nIf that doesn't work, then your\ntitles simply won't work with\nfreeShop currently.
+未能找到你的title key\n所对应的缓存.\n\n请尝试在设置中刷新缓存.\n如果没有效果, 那么\n就是因为freeshop目前\n不支持你的游戏.
+
+Queued install: %s
+等待安装: %s
+
+Already installed: %s
+已经安装: %s
+
+# src/States/DialogState.cpp
+############################
+ Ok
+ 确认
+
+ Cancel
+ 取消
+
+Are you sure you want\nto continue?
+你确定要继续吗?
+
+# src/States/NewsState.cpp
+##########################
+ Close
+ 关闭
+
+# src/States/QrScannerState.cpp
+###############################
+ Retry
+ 重试
+
+# src/AppInfo.cpp
+#################
+No Screenshots
+没有截图
+
+No game selected
+没有选择游戏
+
+Demo
+试玩版
+
+You are deleting the demo for\nthis title:\n\n%s
+你正在删除\n这个游戏的试玩版:\n\n%s
+
+Deleted demo: %s
+已删除试玩版: %s
+
+Queued demo: %s
+等待安装试玩版: %s
+
+You are deleting this game,\nincluding all save data:\n\n%s
+你正在删除这个游戏,\n包括其所有的存档:\n\n%s
+
+Deleted: %s
+已删除: %s
+
+# src/Download.cpp
+##################
+Waiting for internet...
+等待网络...
+
+Failed
+失败
+
+Retry attempts exceeded
+超过重试次数
+
+Retrying... %d
+正在重试... %d
+
+Queued
+已排队
+
+%s\n\nAre you sure you want to cancel\nthis installation and lose all progress?
+%s\n\n你确定要取消\n这次安装并且\n失去全部进度吗?
+
+Canceling...
+正在取消...
+
+# src/DownloadQueue.cpp
+#######################
+[Update] %s
+[升级文件] %s
+
+[Demo] %s
+[试玩版] %s
+
+[DLC] %s
+[DLC] %s
+
+Installing ticket...
+正在安装 ticket...
+
+Installing seed...
+正在安装 seed...
+
+Installing TMD...
+正在安装 TMD...
+
+Importing content...
+导入数据....
+
+Installing %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+正在安装 %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+
+Suspended
+暂停
+
+Completed: %s
+完成: %s
+
+Failed: %s
+失败: %s
+
+Failed: Internet problem
+失败: 网络问题
+
+Not enough space on NAND
+NAND上没有足够空间
+
+Not enough space on SD
+SD卡上没有足够空间
+
+Wrong title key
+错误的title key
+
+# src/InstalledOptions.cpp
+#########################
+Game
+游戏
+
+Updates
+升级文件
+
+DLC
+DLC
+
+You are deleting updates for\nthis title:\n\n%s
+你正在删除\n这个游戏的升级文件:\n\n%s
+
+Deleted update: %s
+已删除升级文件: %s
+
+Queued update: %s
+等待安装的升级文件: %s
+
+You are deleting DLC for\nthis title:\n\n%s
+你正在删除\n这个游戏的DLC:\n\n%s
+
+Deleted DLC: %s
+已删除DLC: %s
+
+Queued DLC: %s
+等待安装的DLC: %s
+
+# src/Installer.cpp
+###################
+Failed to install ticket: 0x%08lX
+安装ticket失败: 0x%08lX
+
+Failed to get seed: HTTP %d
+获取seed失败: HTTP %d
+
+Need FW 9.6+, Seed failed: %016llX
+需要9.6以上固件, seed错误: %016llX
+
+Failed to start: 0x%08lX
+启动失败: 0x%08lX
+
+Failed to resume: 0x%08lX
+继续安装失败: 0x%08lX
+
+Failed to suspend: 0x%08lX
+暂停失败: 0x%08lX
+
+Failed to commit title: 0x%08lX
+提交title失败: 0x%08lX
+
+Failed to finalize TMD: 0x%08lX
+完成TMD下载失败: 0x%08lX
+
+Failed to finalize content: 0x%08lX
+完成数据下载失败: 0x%08lX
+
+Failed to import contents: 0x%08lX
+导入数据失败: 0x%08lX
+
+Failed to install TMD: 0x%08lX
+安装TMD失败: 0x%08lX
+
+Failed to install content: 0x%08lX
+安装数据失败: 0x%08lX
+
+# src/TitleKeys.cpp
+###################
+Failed.\n\nHTTP Status: %d
+失败.\n\nHTTP状态码: %d
+
+Invalid title key format.
+错误的title key格式.
+
+Request timed out.\nTry again.
+请求超时.\n请重试.
+
+Invalid URL.
+错误的URL地址.
+
+# src/GUI/Settings.cpp
+######################
+Filter
+筛选
+
+Regions
+  区  域  
+
+Genre
+  类  型  
+
+Language
+  语  言  
+
+Platform
+  平  台  
+
+Sort
+  排  序  
+
+Update
+升级
+
+Download
+下载
+
+Other
+其他
+
+(Never checked)
+(从未检测过)
+
+(Last checked: %s)
+(上一次检测: %s)
+
+Japan
+日本
+
+USA
+美国
+
+Europe
+欧洲
+
+English
+英语
+
+Japanese
+日语
+
+Spanish
+西班牙语
+
+French
+法语
+
+German
+德语
+
+Italian
+意大利语
+
+Dutch
+荷兰语
+
+Portuguese
+葡萄牙语
+
+Russian
+俄语
+
+Filter settings saved
+筛选设置已保存
+
+Cleared saved filter settings
+已清除筛选设置
+
+Select All
+全选
+
+Select None
+全部取消
+
+Name
+名称
+
+Size
+容量
+
+Vote Score
+评分
+
+Vote Count
+投票数
+
+Release Date
+发售日
+
+Ascending
+升序
+
+Descending
+降序
+
+Auto-update title keys from URL
+从URL地址自动升级title key文件
+
+Auto-update freeShop
+自动升级 freeShop
+
+Refresh Cache
+刷新缓存
+
+Play sound when queue finishes
+排队安装结束后播放声音提示
+
+Power off after download inactivity
+下载后自动关机
+
+1 minute
+1 分钟
+
+%d minutes
+%d 分钟
+
+Use Defaults
+使用默认设置
+
+HTTP Timeout: %.0fs
+HTTP 超时: %.0fs
+
+Buffer size: %u KB
+缓冲大小: %u KB
+
+Language:
+语言:
+
+Auto-detect
+自动检测
+
+View news (%s)
+查看消息 (%s)
+
+Enable screen sleep after inactivity
+放置一段时间后自动进入睡眠
+
+Remote title key URL(s)
+远程title key的URL地址 
+
+You need to restart freeShop for\n%s to be loaded.\n\nWould you like to do this now?
+你现在需要重启freeshop\n来重新加载 %s.\n\n你想要立刻这样做吗?

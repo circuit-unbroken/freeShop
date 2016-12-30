@@ -1,0 +1,395 @@
+# src/States/SyncState.cpp
+##########################
+Waiting for internet connection... %.0fs
+Warte auf Internetverbindung... %.0fs
+
+Fetching news for %s ...
+Rufe News ab für %s ...
+
+Loading game list...
+Lade Spieleliste...
+
+Looking for freeShop update...
+Suche nach freeShop-Aktualisierung...
+
+Installing freeShop %s ...
+Installiert freeShop %s ...
+
+Failed to install update: 0x%08lX
+Installieren des Updates fehlgeschlagen: 0x%08lX
+
+Checking latest cache...
+Überprüfe neusten Cache...
+
+Downloading latest cache: %s...
+Lade neusten Cache herunter: %s...
+
+Extracting latest cache...
+Extrahiere neusten Cache...
+
+Downloading title keys...
+Lade Title-Keys...
+
+# src/States/BrowseState.cpp
+############################
+No title keys found.\nMake sure you have keys in\n%s\n\nManually copy keys to the directory\nor check settings to enter a URL\nfor downloading title keys.
+Keine Title-Keys gefunden.\nÜberprüfe deine Keys in\n%\s\n\nKopiere die Keys manuell in das Verzeichnis\noder überprüfe die Einstellungen, um eine URL aufzurufen,\num die Titel Keys herunterzuladen.
+
+No cache entries found\nfor your title keys.\n\nTry refreshing cache in settings.\nIf that doesn't work, then your\ntitles simply won't work with\nfreeShop currently.
+Keine Cache-Einträge\nfür deine Title-Keys gefunden.\n\nVersuche, den Cache in den Einstellungen zu aktualisieren.\nWenn das nicht hilft, dann funktionieren\ndeine Titel zur Zeit nicht mit\ndem freeShop.
+
+Queued install: %s
+In Warteschlange: %s
+
+Already installed: %s
+Bereits installiert: %s
+
+# src/States/DialogState.cpp
+############################
+ Ok
+ Ok
+
+ Cancel
+ Abbrechen
+
+Are you sure you want\nto continue?
+Bist du sicher,\ndass du fortfahren möchtest?
+
+# src/States/NewsState.cpp
+##########################
+ Close
+ Schließen
+
+# src/States/QrScannerState.cpp
+###############################
+ Retry
+ Wiederholen
+
+# src/AppInfo.cpp
+#################
+No Screenshots
+Keine Screenshots
+
+No game selected
+Kein Spiel ausgewählt
+
+Demo
+Demo
+
+You are deleting the demo for\nthis title:\n\n%s
+Du installierst die Demo für\ndiesen Titel:\n\n%s
+
+Deleted demo: %s
+Gelöschte Demo: %s
+
+Queued demo: %s
+Demo in Warteschlange: %s
+
+You are deleting this game,\nincluding all save data:\n\n%s
+Du deinstallierst folgendes Spiel,\ninklusive alle Speicherdaten:\n\%s
+
+Deleted: %s
+Gelöscht: %s
+
+# src/Download.cpp
+##################
+Waiting for internet...
+Warte auf Internetverbindung...
+
+Failed
+Fehlgeschlagen
+
+Retry attempts exceeded
+Wiederholungsversuche überschritten
+
+Retrying... %d
+Wiederholen... %d
+
+Queued
+Warteschlange
+
+%s\n\nAre you sure you want to cancel\nthis installation and lose all progress?
+%s\n\nBist du sicher, dass du die Installation\nabbrechen willst? Du verlierst den gesamten\nFortschritt.
+
+Canceling...
+Abbrechen...
+
+# src/DownloadQueue.cpp
+#######################
+[Update] %s
+[Aktualisieren] %s
+
+[Demo] %s
+[Demo] %s
+
+[DLC] %s
+[DLC] %s
+
+Installing ticket...
+Installiere Ticket...
+
+Installing seed...
+Installiere Seed...
+
+Installing TMD...
+Installiere TMD...
+
+Importing content...
+Importiere Inhalt....
+
+Installing %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+Installiere %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+
+Suspended
+Unterbrechen
+
+Completed: %s
+Fertiggestellt: %s
+
+Failed: %s
+Fehlgeschlagen: %s
+
+Failed: Internet problem
+Fehlgeschlagen: Internerproblem
+
+Not enough space on NAND
+Nicht genügend Speicher auf dem NAND
+
+Not enough space on SD
+Nicht genügend Speicher auf der SD
+
+Wrong title key
+Falscher Title-Key
+
+# src/InstalledOptions.cpp
+#########################
+Game
+Spiel
+
+Updates
+Aktualisierungen
+
+DLC
+DLC
+
+You are deleting updates for\nthis title:\n\n%s
+Du löschst die Aktualisierungen für\ndiesen Titel:\n\n%s
+
+Deleted update: %s
+Gelöschte Aktualisierung: %s
+
+Queued update: %s
+Warteschlange Aktualisierung: %s
+
+You are deleting DLC for\nthis title:\n\n%s
+Du löschst den DLC für\ndiesen Titel:\n\n%s
+
+Deleted DLC: %s
+Gelöschte DLC: %s
+
+Queued DLC: %s
+DLC in Warteschlange: %s
+
+# src/Installer.cpp
+###################
+Failed to install ticket: 0x%08lX
+Installieren des Tickets fehlgeschlagen: 0x%08lX
+
+Failed to get seed: HTTP %d
+Seed erhalten fehlgeschlagen: HTTP %d
+
+Need FW 9.6+, Seed failed: %016llX
+Benötigt FW 9.6+, Seed fehlgeschlagen: %016llX
+
+Failed to start: 0x%08lX
+Starten fehlgeschlagen: 0x%08lX
+
+Failed to resume: 0x%08lX
+Fortsetzen fehlgeschlagen: 0x%08lX
+
+Failed to suspend: 0x%08lX
+Unterbrechen fehlgeschlagen: 0x%08lX
+
+Failed to commit title: 0x%08lX
+Titel auswählen fehlgeschlagen: 0x%081X
+
+Failed to finalize TMD: 0x%08lX
+Abschließen für TMD fehlgeschlagen: 0x%08lX
+
+Failed to finalize content: 0x%08lX
+Abschließen für Inhalt fehlgeschlagen: 0x%08lX
+
+Failed to import contents: 0x%08lX
+Importieren des Inhalts fehlgeschlagen: 0x%08lX
+
+Failed to install TMD: 0x%08lX
+TMD installieren fehlgeschlagen: 0x%08lX
+
+Failed to install content: 0x%08lX
+Inhalt installieren fehlgeschlagen: 0x%08lX
+
+# src/TitleKeys.cpp
+###################
+Failed.\n\nHTTP Status: %d
+Fehlgeschlagen.\n\nHTTP Status: %d
+
+Invalid title key format.
+Ungültiges Title-Key Format.
+
+Request timed out.\nTry again.
+Zeitüberschreitung.\nVersuche es erneut.
+
+Invalid URL.
+Ungültige URL.
+
+# src/GUI/Settings.cpp
+######################
+Filter
+Filter
+
+Regions
+Regionen
+
+Genre
+Genre
+
+Language
+Sprache
+
+Platform
+Plattform
+
+Sort
+Sortieren
+
+Update
+Aktualisieren
+
+Download
+Herunterladen
+
+Other
+Andere
+
+(Never checked)
+(Nie überprüft)
+
+(Last checked: %s)
+(Letzte Überprüfung: %s)
+
+Japan
+Japan
+
+USA
+USA
+
+Europe
+Europa
+
+English
+Englisch
+
+Japanese
+Japanisch
+
+Spanish
+Spanisch
+
+French
+Französisch
+
+German
+Deutsch
+
+Italian
+Italienisch
+
+Dutch
+Holländisch
+
+Portuguese
+Portugisisch
+
+Russian
+Russisch
+
+Filter settings saved
+Filter Einstellungen gespeichert
+
+Cleared saved filter settings
+Gespeicherte Filter Einstellungen gelöscht
+
+Select All
+Alles auswählen
+
+Select None
+Keins auswählen
+
+Name
+Name
+
+Size
+Größe
+
+Vote Score
+Nach Punktzahl
+
+Vote Count
+Nach Stimmenanzahl
+
+Release Date
+Erscheinungsdatum
+
+Ascending
+Aufsteigend
+
+Descending
+Absteigend
+
+Auto-update title keys from URL
+Automatische Aktualisierung der Title-Keys durch URL
+
+Auto-update freeShop
+Automatische freeShop Aktualisierung
+
+Refresh Cache
+Aktualisiere Cache
+
+Play sound when queue finishes
+Spiele Ton ab, wenn Warteschlange beendet wird
+
+Power off after download inactivity
+Ausschalten nach Inaktivität
+
+1 minute
+1 Minute
+
+%d minutes
+%d Minuten
+
+Use Defaults
+Standard
+
+HTTP Timeout: %.0fs
+HTTP-Zeitüberschreitung: %.0fs
+
+Buffer size: %u KB
+Puffergröße: %u KB
+
+Language:
+Sprache:
+
+Auto-detect
+Automatische Erkennung
+
+View news (%s)
+Zeige News (%s)
+
+Enable screen sleep after inactivity
+Aktiviere Schlafmodus nach Inaktivität
+
+Remote title key URL(s)
+Title-Key URL(s) Fernsteuerung
+
+You need to restart freeShop for\n%s to be loaded.\n\nWould you like to do this now?
+Du musst freeShop neu starten, um\n%s zu laden.\n\nMöchtest du jetzt neustarten?

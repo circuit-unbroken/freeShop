@@ -1,0 +1,398 @@
+# src/States/SyncState.cpp
+##########################
+Waiting for internet connection... %.0fs
+Αναμονή για σύνδεση στο διαδίκτυο... %.0fδ
+
+Fetching news for %s ...
+Ανάκτηση νέων για %s ...
+
+Loading game list...
+Φόρτωση λίστας παιχνιδιών...
+
+Looking for freeShop update...
+Έλεγχος για ενημερώσεις του freeShop...
+
+Installing freeShop %s ...
+Εγκατάσταση freeShop %s ...
+
+Failed to install update: 0x%08lX
+Αποτυχία εγκατάστασης ενημέρωσης: 0x%08lX
+
+Checking latest cache...
+Έλεγχος τελευταίου cache...
+
+Downloading latest cache: %s...
+Κατέβασμα τελευταίου cache: %s...
+
+Extracting latest cache...
+Αποσυμπίεση τελευταίου cache...
+
+Downloading title keys...
+Κατέβασμα title keys...
+
+# src/States/BrowseState.cpp
+############################
+No title keys found.\nMake sure you have keys in\n%s\n\nManually copy keys to the directory\nor check settings to enter a URL\nfor downloading title keys.
+Δεν βρέθηκαν title keys.\nΕπιβεβαιώστε ότι έχετε κλειδιά μέσα στο\n%s\n\nΑντιγράψτε κλειδιά στο φάκελο\nή πηγαίνετε στις ρυθμίσεις\nγια να εισάγετε ένα URL\nγια το κατέβασμα των tittle keys.
+
+No cache entries found\nfor your title keys.\n\nTry refreshing cache in settings.\nIf that doesn't work, then your\ntitles simply won't work with\nfreeShop currently.
+Δεν βρέθηκαν καταχωρήσεις cache\nγια τα title keys σας.\n\nΔοκιμάστε να ανανεώσετε την cache στις ρυθμίσεις.\nΑν αυτό δεν δουλέψει,\nτότε τα titles σας απλά δεν είναι συμβατά\nμε το freeShop προς το παρόν.
+
+Queued install: %s
+Σε σειρά για εγκατάσταση: %s
+
+Already installed: %s
+Ήδη εγκατεστημένα: %s
+
+# src/States/DialogState.cpp
+############################
+ Ok
+ Οκ
+
+ Cancel
+ Ακύρωση
+
+Are you sure you want\nto continue?
+Είστε σίγουρος ότι θέλετε να συνεχίσετε;
+
+# src/States/NewsState.cpp
+##########################
+ Close
+ Κλείσιμο
+
+# src/States/QrScannerState.cpp
+###############################
+ Retry
+ Προσπαθήστε ξανά
+
+# src/AppInfo.cpp
+#################
+No Screenshots
+Κανένα στιγμιότυπο
+
+No game selected
+Δεν έχετε επιλέξει κανένα παιχνίδι
+
+Demo
+Demo
+
+You are deleting the demo for\nthis title:\n\n%s
+Θα διαγράψετε το demo\nγια αυτό το title:\n\n%s
+
+Deleted demo: %s
+Διαγραμμένο demo: %s
+
+Queued demo: %s
+Demo σε σειρά: %s
+
+You are deleting this game,\nincluding all save data:\n\n%s
+Θα διαγράψετε αυτό το παιχνίδι,\nμαζί με όλα τα δεδομένα αποθήκευσης:\n\n%s
+
+Deleted: %s
+Διαγράφηκε: %s
+
+# src/Download.cpp
+##################
+Waiting for internet...
+Anamoni gia diadiktyo...
+
+Failed
+Απέτυχε
+
+Retry attempts exceeded
+Υπερβολικές απόπειρες
+
+Retrying... %d
+Επαναπροσπάθεια... %d
+
+Queued
+Σε σειρά
+
+%s\n\nAre you sure you want to cancel\nthis installation and lose all progress?
+%s\n\nΕίστε σίγουρος ότι θέλετε να ακυρώσετε\nτην εγκατάσταση και να χάσετε\nόλη την πρόοδο;
+
+Canceling...
+Ακύρωση...
+
+# src/DownloadQueue.cpp
+#######################
+[Update] %s
+[Ενημέρωση] %s
+
+[Demo] %s
+[Demo] %s
+
+[DLC] %s
+[DLC] %s
+
+Installing ticket...
+Εγκατάσταση ticket...
+
+Installing seed...
+Εγκατάσταση seed...
+
+Installing TMD...
+Εγκατάσταση TMD...
+
+Importing content...
+Εισαγωγή περιεχομένου...
+
+Installing %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+Εγκατάσταση %d/%d... %.1f%% (%.0f KB/δ) %dλ %02dδ
+
+Suspended
+Σε παύση
+
+Installed
+Εγκατεστημένο
+
+Completed: %s
+Ολοκληρώθηκε: %s
+
+Failed: %s
+Απέτυχε: %s
+
+Failed: Internet problem
+Απέτυχε: Πρόβλημα διαδικτύου
+
+Not enough space on NAND
+Ανεπαρκής χώρος στην NAND
+
+Not enough space on SD
+Ανεπαρκής χώρος στον SD
+
+Wrong title key
+Λάθος title key
+
+# src/InstalledOptions.cpp
+#########################
+Game
+Παιχνίδι
+
+Updates
+Ενημερώσεις
+
+DLC
+DLC
+
+You are deleting updates for\nthis title:\n\n%s
+Θα διαγράψετε τις ενημερώσεις\nγια αυτό το title:\n\n%s
+
+Deleted update: %s
+Διαγραμμένες ενημερώσεις: %s
+
+Queued update: %s
+Ενημερώσεις σε σειρά: %s
+
+You are deleting DLC for\nthis title:\n\n%s
+Θα διαγράψετε DLC\nγια αυτό το title:\n\n%s
+
+Deleted DLC: %s
+Διαγραμμένο DLC: %s
+
+Queued DLC: %s
+DLC σε σειρά: %s
+
+# src/Installer.cpp
+###################
+Failed to install ticket: 0x%08lX
+Αποτυχία εγκατάστασης ticket: 0x%08lX
+
+Failed to get seed: HTTP %d
+Αποτυχία απόκτησης seed: HTTP %d
+
+Need FW 9.6+, Seed failed: %016llX
+Απαιτείται FW 9.6+, το Seed απέτυχε: %016llX
+
+Failed to start: 0x%08lX
+Αποτυχία εκκίνησης: 0x%08lX
+
+Failed to resume: 0x%08lX
+Αποτυχία συνέχισης: 0x%08lX
+
+Failed to suspend: 0x%08lX
+Αποτυχία αναστολής: 0x%08lX
+
+Failed to commit title: 0x%08lX
+Αποτυχία παράδοσης title: 0x%08lX
+
+Failed to finalize TMD: 0x%08lX
+Αποτυχία ολοκλήρωσης TMD: 0x%08lX
+
+Failed to finalize content: 0x%08lX
+Αποτυχία ολοκλήρωσης περιεχομένου: 0x%08lX
+
+Failed to import contents: 0x%08lX
+Αποτυχία εισαγωγής περιεχομένου: 0x%08lX
+
+Failed to install TMD: 0x%08lX
+Αποτυχία εγκατάστασης TMD: 0x%08lX
+
+Failed to install content: 0x%08lX
+Αποτυχία εγκατάστασης: 0x%08lX
+
+# src/TitleKeys.cpp
+###################
+Failed.\n\nHTTP Status: %d
+Αποτυχία.\n\nΚατάσταση HTTP: %d
+
+Invalid title key format.
+Λανθασμένη μορφή title key.
+
+Request timed out.\nTry again.
+Η αίτηση έληξε.\nΔοκιμάστε πάλι.
+
+Invalid URL.
+Λανθασμένο URL.
+
+# src/GUI/Settings.cpp
+######################
+Filter
+Φίλτρο
+
+Regions
+Περιοχές
+
+Genre
+Είδος
+
+Language
+Γλώσσα
+
+Platform
+Πλατφόρμα
+
+Sort
+Ταξινόμηση
+
+Update
+Ενημέρωση
+
+Download
+Λήψεις
+
+Other
+Άλλα
+
+(Never checked)
+(Κανένας έλεγχος)
+
+(Last checked: %s)
+(Τελευταίος έλεγχος: %s)
+
+Japan
+Ιαπωνία
+
+USA
+ΗΠΑ
+
+Europe
+Ευρώπη
+
+English
+Αγγλικά
+
+Japanese
+Ιαπωνικά
+
+Spanish
+Ισπανικά
+
+French
+Γαλλικά
+
+German
+Γερμανικά
+
+Italian
+Ιταλικά
+
+Dutch
+Δανέζικα
+
+Portuguese
+Πορτογαλικά
+
+Russian
+Ρώσικα
+
+Filter settings saved
+Οι ρυθμίσεις φίλτρου αποθηκεύτηκαν
+
+Cleared saved filter settings
+Οι αποθηκευμένες ρυθμίσεις φίλτρου διαγράφηκαν
+
+Select All
+Επιλέξτε όλα
+
+Select None
+Επιλέξτε κανένα
+
+Name
+Όνομα
+
+Size
+Μέγεθος
+
+Vote Score
+Βαθμολογία
+
+Vote Count
+Αριθμός αξιολογήσεων
+
+Release Date
+Ημερομηνία κυκλοφορίας
+
+Ascending
+Αύξουσα σειρά
+
+Descending
+Φθίνουσα σειρά
+
+Auto-update title keys from URL
+Αυτόματη ενημέρωση των title keys από το URL
+
+Auto-update freeShop
+Αυτόματη ενημέρωση του freeShop
+
+Refresh Cache
+Ανανέωση Cache
+
+Play sound when queue finishes
+Ηχητική ειδοποίηση μετά την λήξη της σειράς
+
+Power off after download inactivity
+Απενεργοποίηση μετά από απραξία λήψεων
+
+1 minute
+1 λεπτό
+
+%d minutes
+%d λεπτά
+
+Use Defaults
+Προεπιλογές
+
+HTTP Timeout: %.0fs
+Λήξη HTTP: %.0fs
+
+Buffer size: %u KB
+Μέγεθος buffer: %u KB
+
+Language:
+Γλώσσα:
+
+Auto-detect
+Αυτόματη ανίχνευση
+
+View news (%s)
+Δείτε τα νέα (%s)
+
+Enable screen sleep after inactivity
+Απενεργοποίηση οθόνης μετά από απραξία
+
+Remote title key URL(s)
+URL(s) απομακρυσμένων title keys
+
+You need to restart freeShop for\n%s to be loaded.\n\nWould you like to do this now?
+Πρέπει να επανεκκινήσετε το freeShop\nγια να φορτωθεί το %s.\n\nΘέλετε να το κάνετε τώρα;

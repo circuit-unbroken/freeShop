@@ -1,0 +1,14 @@
+҉҉҉ ASIAN MASTER RACE EDITION ҉҉҉
+
+• Fix crashing on Korean and Chinese region
+  consoles using language auto-detect.
+• Add missing regions to filter list:
+  Australia, China, Korea, Taiwan
+• Use audio streaming for BGM.
+• Add language translations:
+    - Korean
+    - Simplified Chinese
+    - Traditional Chinese
+    - Turkish
+    - Split Spanish into US/ES
+    - Split Potuguese into BR/PT
