@@ -23,3 +23,7 @@ Open source eShop clone for the Nintendo 3DS. Allows you to browse and install t
 - [yellows8](https://github.com/yellows8) - for all the incredible REing
 
 - [Noroxuz](https://github.com/Noroxuz) - help with banner
+
+### Note
+
+- New FreeShop Will NOT Have An Official Release Until After EShop Oficially Shuts Down For Good, Around That Time I Will Hopefully In THe Final Betas And Close To Release.
