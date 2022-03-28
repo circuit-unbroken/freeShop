@@ -1,0 +1,5 @@
+New FreeShop Change Logs
+
+Changed Banner And Logo To Match New FreeShop Logos.
+
+Trying To Get FreeShop To Connect To Github And Not Nintendo Servers.
